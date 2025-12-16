@@ -1,0 +1,90 @@
+
+vars:
+  - &Axis                       lift
+
+  - &lowPos                     520
+  - &highPos                    3450
+
+  - &NegDirOvershootName        LiftLargeStepNegDirStageBothOvershoot
+  - &NegDirMaxV                 LiftLargeStepNegDirStageBoth_MaxV
+  - &NegDirMaxVinst             LiftLargeStepNegDirStageBoth_MaxVinst
+  - &NegDirMaxVinst_DelayTime   LiftLargeStepNegDirStageBoth_DelayTime
+  - &NegDirMaxVinst_Command     LiftLargeStepNegDirStageBoth_Command
+
+  - &NegDirCSVFile              LiftLargeStepNegDirStageBoth_[COUNTER]
+
+  - &PosDirOvershootName        LiftLargeStepPosDirStageBothOvershoot
+  - &PosDirMaxV                 LiftLargeStepPosDirStageBoth_MaxV
+  - &PosDirMaxVinst             LiftLargeStepPosDirStageBoth_MaxVinst
+  - &PosDirMaxVinst_DelayTime   LiftLargeStepPosDirStageBoth_DelayTime
+  - &PosDirMaxVinst_Command     LiftLargeStepPosDirStageBoth_Command
+
+  - &PosDirCSVFile              LiftLargeStepPosDirStageBoth_[COUNTER]
+
+
+
+Operations:
+
+  - Type: SetDefAxis
+    Axis: *Axis
+
+  - Type: HydCommand
+    TargetPos: *lowPos
+  
+
+  - Type: GetCurrentPos
+    OutName: StartPosition
+
+  - Type: GetLineNumber
+    OutName: StartLineNumber
+
+  - Type: HydCommand
+    TargetPos: *highPos
+  
+
+  - Type: GetCurrentPos
+    OutName: FinalPosition
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumber
+
+  - Type: MathOperation
+    Input1: FinalPosition
+    Input2: *highPos
+    Operation: "-"
+    Output: SmallPositiveStep
+
+  - Type: OutputResult
+    Input: SmallPositiveStep
+    Output: *PosDirOvershootName
+
+  - Type: OutputLogFile
+    StartLineNumber: StartLineNumber
+    EndLineNumber: FinalLineNumber
+    Name: *PosDirCSVFile
+
+  - Type: HydCommand
+    TargetPos: *lowPos
+  
+  - Type: GetCurrentPos
+    OutName: FinalPositionL
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumberL
+
+  - Type: MathOperation
+    Input1: *lowPos
+    Input2: FinalPositionL
+    Operation: "-"
+    Output: OvershootInNegDirection
+
+  - Type: OutputResult
+    Input: OvershootInNegDirection
+    Output: *NegDirOvershootName 
+
+  - Type: OutputLogFile
+    StartLineNumber: FinalLineNumber
+    EndLineNumber: FinalLineNumberL
+    Name: *NegDirCSVFile
+
+

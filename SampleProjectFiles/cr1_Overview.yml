@@ -1,0 +1,43 @@
+IPAddress: "###.###.###.###"
+PassWordRequired: False
+
+
+Tasks:
+
+- Name: initialize.yml
+
+- Name: CR1_TiltUp_initialize.yml
+
+- Name: CR1_LiftLargeStepStage1.yml
+  Repeat: 2
+
+- Name: CR1_LiftLargeStepStage2.yml
+  Repeat: 2
+
+- Name: CR1_LiftLargeStepBoth.yml
+  Repeat: 2
+
+- Name: CR1_LiftSmallStepStage1.yml
+  Repeat: 2
+
+- Name: CR1_LiftSmallStepStage2.yml
+  Repeat: 2
+
+- Name: CR1_LiftDown_initialize.yml
+
+- Name: CR1_ReachLargeStep.yml
+  Repeat: 2
+
+- Name: CR1_SideshiftSmallStep.yml
+  Repeat: 2
+
+- Name: CR1_SideshiftLargeStep.yml
+  Repeat: 2
+
+- Name: CR1_TiltLargeStep.yml
+  Repeat: 2
+
+# Post process functions
+- Name: CR1_LiftLargeStepStage1Process.yml
+- Name: CR1_LiftLargeStepStage2Process.yml
+- Name: CR1_LiftLargeStepBothProcess.yml

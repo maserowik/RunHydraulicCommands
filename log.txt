@@ -1,0 +1,1499 @@
+CRITICAL | 2025-01-28 13:58:15,095 | RunHydCommands.py | line: 28 | <module> | /home/raul/scripts/RunHydraulicCommands/taskrunner.yml file not found
+CRITICAL | 2025-01-28 13:58:15,096 | RunHydCommands.py | line: 29 | <module> | EXITING APPLICATION!!!
+DEBUG | 2025-03-28 15:22:10,049 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 15:22:10,049 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:22:10,049 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:22:10,080 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:22:10,080 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:22:10,080 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 15:22:10,080 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:22:10,120 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:22:16,253 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 15:22:16,254 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:22:16,254 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 15:22:16,283 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:22:16,283 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:22:16,283 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 15:22:16,283 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:22:16,322 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:22:22,450 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 15:22:22,451 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:22:22,451 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 15:22:22,486 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:22:22,486 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:22:22,486 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 15:22:22,486 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:22:22,531 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:22:28,651 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 15:22:28,651 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:22:28,651 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 15:22:28,681 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:22:28,681 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:22:28,681 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 15:22:28,681 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:22:28,727 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:22:34,850 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 15:22:34,850 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:22:34,850 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:22:34,879 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:22:34,879 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:22:34,879 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 15:22:34,879 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:22:34,922 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:23:01,739 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 15:23:01,739 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 15:23:06,767 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 15:23:06,767 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 15:30:16,472 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 15:30:16,474 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:30:16,474 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:30:16,504 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:30:16,504 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:30:16,504 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 15:30:16,504 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:30:16,546 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:30:22,663 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 15:30:22,664 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:30:22,664 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 15:30:22,707 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:30:22,707 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:30:22,707 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 15:30:22,707 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:30:22,753 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:30:28,888 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 15:30:28,888 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:30:28,888 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 15:30:28,917 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:30:28,917 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:30:28,917 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 15:30:28,917 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:30:28,959 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:30:35,075 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 15:30:35,075 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:30:35,076 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 15:30:35,106 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:30:35,106 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:30:35,106 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 15:30:35,106 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:30:35,148 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:30:41,269 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 15:30:41,269 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:30:41,269 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:30:41,296 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:30:41,297 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:30:41,297 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 15:30:41,297 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:30:41,336 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:31:11,667 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 15:31:11,674 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 15:31:16,706 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 15:31:16,706 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 15:31:16,764 | screen.py | line: 327 | GetAxisFeedback | 382.18227958333335
+DEBUG | 2025-03-28 15:32:16,803 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 15:32:16,804 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 15:32:40,016 | screen.py | line: 158 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-28 15:32:40,016 | screen.py | line: 160 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-28 15:32:40,048 | screen.py | line: 292 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-28 15:49:45,734 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 15:49:45,734 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:49:45,734 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:49:45,764 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:49:45,764 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:49:45,764 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 15:49:45,764 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:49:45,805 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:49:51,947 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 15:49:51,947 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:49:51,947 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 15:49:51,979 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:49:51,979 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:49:51,980 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 15:49:51,980 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:49:52,028 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:49:58,158 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 15:49:58,158 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:49:58,158 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 15:49:58,188 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:49:58,188 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:49:58,188 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 15:49:58,188 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:49:58,238 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:50:04,365 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 15:50:04,365 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:50:04,365 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 15:50:04,400 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:50:04,400 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:50:04,400 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 15:50:04,401 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:50:04,457 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:50:10,588 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 15:50:10,588 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:50:10,589 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:50:10,624 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:50:10,625 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:50:10,625 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 15:50:10,625 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:50:10,677 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:51:10,043 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 15:51:10,044 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 15:51:15,080 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 15:51:15,080 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 15:53:10,128 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 15:53:10,128 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:53:10,128 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:53:10,161 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:53:10,161 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:53:10,161 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 15:53:10,161 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:53:10,207 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:53:16,327 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 15:53:16,328 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:53:16,328 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 15:53:16,364 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:53:16,364 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:53:16,365 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 15:53:16,365 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:53:16,422 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:53:22,561 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 15:53:22,561 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:53:22,561 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 15:53:22,593 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:53:22,594 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:53:22,594 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 15:53:22,594 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:53:22,638 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:53:28,769 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 15:53:28,769 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:53:28,769 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 15:53:28,801 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:53:28,801 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:53:28,801 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 15:53:28,801 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:53:28,848 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:53:34,969 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 15:53:34,970 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:53:34,970 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:53:35,007 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:53:35,007 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:53:35,008 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 15:53:35,008 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:53:35,055 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:55:11,678 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 15:55:11,686 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 15:55:16,727 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 15:55:16,727 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 15:55:16,793 | screen.py | line: 327 | GetAxisFeedback | 520.370692
+DEBUG | 2025-03-28 15:55:16,793 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 15:55:16,793 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 15:55:39,930 | screen.py | line: 158 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-28 15:55:39,930 | screen.py | line: 160 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-28 15:55:39,969 | screen.py | line: 292 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-28 15:55:39,970 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 15:55:39,970 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 15:55:55,087 | screen.py | line: 158 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-28 15:55:55,087 | screen.py | line: 160 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-28 15:55:55,121 | screen.py | line: 292 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-28 15:55:55,121 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 15:55:55,121 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 15:56:10,261 | screen.py | line: 158 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-28 15:56:10,261 | screen.py | line: 160 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-28 15:56:10,297 | screen.py | line: 292 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-28 15:56:10,298 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 15:56:10,298 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 15:59:06,472 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 15:59:06,472 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:59:06,472 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:59:06,505 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:59:06,505 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:59:06,505 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 15:59:06,505 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:59:06,559 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:59:12,694 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 15:59:12,694 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:59:12,694 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 15:59:12,727 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:59:12,728 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:59:12,728 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 15:59:12,728 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:59:12,771 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:59:18,903 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 15:59:18,904 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:59:18,904 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 15:59:18,937 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:59:18,937 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:59:18,937 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 15:59:18,938 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:59:18,989 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:59:25,117 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 15:59:25,117 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:59:25,117 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 15:59:25,152 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:59:25,152 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:59:25,152 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 15:59:25,152 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:59:25,196 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 15:59:31,329 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 15:59:31,329 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 15:59:31,329 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 15:59:31,364 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 15:59:31,364 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 15:59:31,364 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 15:59:31,364 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 15:59:31,415 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:00:08,081 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 16:00:08,089 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 16:00:13,135 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 16:00:13,135 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 16:01:11,004 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 16:01:11,004 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:01:11,004 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 16:01:11,035 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:01:11,035 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:01:11,036 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 16:01:11,036 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:01:11,080 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:01:17,213 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 16:01:17,213 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:01:17,213 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 16:01:17,245 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:01:17,245 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:01:17,245 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 16:01:17,245 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:01:17,288 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:01:23,423 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 16:01:23,424 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:01:23,424 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 16:01:23,459 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:01:23,459 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:01:23,460 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 16:01:23,460 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:01:23,502 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:01:29,640 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 16:01:29,640 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:01:29,640 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 16:01:29,672 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:01:29,672 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:01:29,672 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 16:01:29,672 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:01:29,725 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:01:35,855 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 16:01:35,855 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:01:35,855 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 16:01:35,888 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:01:35,888 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:01:35,888 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 16:01:35,888 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:01:35,931 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:02:00,991 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 16:02:00,997 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 16:02:21,041 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 16:02:21,041 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 16:02:21,087 | screen.py | line: 327 | GetAxisFeedback | 520.4598865006227
+DEBUG | 2025-03-28 16:05:38,596 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-28 16:05:38,597 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:05:38,597 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-28 16:05:38,632 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:05:38,632 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:05:38,632 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-28 16:05:38,632 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:05:38,677 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:05:44,805 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-28 16:05:44,806 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:05:44,806 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-28 16:05:44,838 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:05:44,838 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:05:44,838 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-28 16:05:44,838 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:05:44,882 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:05:51,023 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-28 16:05:51,024 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:05:51,024 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-28 16:05:51,067 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:05:51,067 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:05:51,068 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-28 16:05:51,068 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:05:51,116 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:05:57,246 | screen.py | line: 223 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-28 16:05:57,247 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:05:57,247 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-28 16:05:57,290 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:05:57,290 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:05:57,290 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-28 16:05:57,290 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:05:57,340 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:06:03,466 | screen.py | line: 223 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-28 16:06:03,467 | screen.py | line: 234 | StartScreen | StartingScreen()
+DEBUG | 2025-03-28 16:06:03,467 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-28 16:06:03,507 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-28 16:06:03,508 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-28 16:06:03,508 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-28 16:06:03,508 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-28 16:06:03,556 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-28 16:07:08,687 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-28 16:07:08,693 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-28 16:07:28,747 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-28 16:07:28,748 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-28 16:07:28,814 | screen.py | line: 327 | GetAxisFeedback | 520.7131143714286
+DEBUG | 2025-03-28 16:07:34,637 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 16:07:34,638 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 16:07:57,816 | screen.py | line: 158 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-28 16:07:57,816 | screen.py | line: 160 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-28 16:07:57,850 | screen.py | line: 292 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-28 16:08:30,567 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-28 16:08:30,567 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-28 16:08:44,692 | screen.py | line: 158 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-28 16:08:44,692 | screen.py | line: 160 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-28 16:08:44,729 | screen.py | line: 292 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 11:27:14,605 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 11:27:14,606 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 11:27:14,607 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 11:27:14,690 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 11:27:14,690 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 11:27:14,691 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 11:27:14,691 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 11:27:14,766 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 11:27:21,044 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 11:27:21,044 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 11:27:21,044 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 11:27:21,131 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 11:27:21,131 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 11:27:21,132 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 11:27:21,132 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 11:27:21,195 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 11:27:27,439 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 11:27:27,440 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 11:27:27,440 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 11:27:27,545 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 11:27:27,545 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 11:27:27,545 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 11:27:27,545 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 11:27:27,613 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 11:27:33,863 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 11:27:33,863 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 11:27:33,863 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 11:27:33,940 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 11:27:33,940 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 11:27:33,940 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 11:27:33,940 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 11:27:34,012 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 11:27:40,265 | screen.py | line: 250 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 11:27:40,265 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 11:27:40,265 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 11:27:40,346 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 11:27:40,347 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 11:27:40,347 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 11:27:40,347 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 11:27:40,421 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 11:28:08,144 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 11:28:08,145 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 11:28:28,202 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 11:28:28,203 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 11:28:28,361 | screen.py | line: 354 | GetAxisFeedback | 380.5601412225705
+DEBUG | 2025-03-31 11:28:28,361 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 11:28:28,361 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 12:05:20,099 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:05:20,100 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:05:20,100 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:05:20,165 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:05:20,165 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:05:20,166 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:05:20,166 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:05:20,233 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:05:26,498 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 12:05:26,498 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:05:26,499 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 12:05:26,578 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:05:26,579 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:05:26,579 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 12:05:26,579 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:05:26,642 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:05:32,863 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 12:05:32,863 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:05:32,863 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 12:05:32,937 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:05:32,937 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:05:32,937 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 12:05:32,937 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:05:33,012 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:05:39,261 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 12:05:39,261 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:05:39,261 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 12:05:39,338 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:05:39,339 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:05:39,339 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 12:05:39,339 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:05:39,403 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:05:45,660 | screen.py | line: 250 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 12:05:45,661 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:05:45,661 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:05:45,765 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:05:45,765 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:05:45,766 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 12:05:45,766 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:05:45,829 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:06:15,116 | screen.py | line: 151 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 12:06:15,116 | screen.py | line: 153 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 12:06:35,234 | screen.py | line: 158 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 12:06:35,235 | screen.py | line: 160 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 12:06:35,404 | screen.py | line: 354 | GetAxisFeedback | 381.4379102881356
+DEBUG | 2025-03-31 12:06:35,404 | screen.py | line: 151 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 12:06:35,405 | screen.py | line: 153 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 12:15:50,058 | screen.py | line: 118 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:15:50,135 | screen.py | line: 120 | KillAllScreenSessions | [('44477', 'RCN_short'), ('44385', 'VSM_pos'), ('44289', 'VSM_brd'), ('44198', 'VSM_clear'), ('44110', 'VSM_short')]
+DEBUG | 2025-03-31 12:15:50,429 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:15:50,429 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:15:50,429 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:15:50,492 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:15:50,492 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:15:50,492 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:15:50,492 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:15:50,555 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:15:56,807 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 12:15:56,808 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:15:56,808 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 12:15:56,902 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:15:56,902 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:15:56,902 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 12:15:56,902 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:15:56,967 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:16:03,208 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 12:16:03,208 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:16:03,209 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 12:16:03,268 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:16:03,268 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:16:03,269 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 12:16:03,269 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:16:03,316 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:16:09,549 | screen.py | line: 250 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 12:16:09,549 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:16:09,549 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 12:16:09,639 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:16:09,639 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:16:09,639 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 12:16:09,639 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:16:09,710 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:16:15,956 | screen.py | line: 250 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 12:16:15,956 | screen.py | line: 261 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:16:15,957 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:16:16,059 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:16:16,059 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:16:16,059 | screen.py | line: 143 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 12:16:16,059 | screen.py | line: 144 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:16:16,133 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:45:23,777 | screen.py | line: 118 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:45:23,858 | screen.py | line: 120 | KillAllScreenSessions | [('54082', 'RCN_short'), ('53992', 'VSM_pos'), ('53898', 'VSM_brd'), ('53798', 'VSM_clear'), ('53703', 'VSM_short')]
+DEBUG | 2025-03-31 12:45:24,185 | screen.py | line: 252 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:45:24,185 | screen.py | line: 263 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:45:24,185 | screen.py | line: 130 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:45:24,260 | screen.py | line: 132 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:45:24,261 | screen.py | line: 142 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:45:24,261 | screen.py | line: 143 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:45:24,261 | screen.py | line: 144 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:45:24,333 | screen.py | line: 147 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:51:14,675 | screen.py | line: 123 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:51:14,743 | screen.py | line: 125 | KillAllScreenSessions | [('65700', 'VSM_short')]
+DEBUG | 2025-03-31 12:51:14,827 | screen.py | line: 257 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:51:14,827 | screen.py | line: 268 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:51:14,827 | screen.py | line: 135 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:51:14,897 | screen.py | line: 137 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:51:14,897 | screen.py | line: 147 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:51:14,897 | screen.py | line: 148 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:51:14,897 | screen.py | line: 149 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:51:14,963 | screen.py | line: 152 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:52:02,416 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:52:02,487 | screen.py | line: 128 | KillAllScreenSessions | [('67934', 'VSM_short')]
+DEBUG | 2025-03-31 12:52:02,557 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:52:02,557 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:52:02,557 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:52:02,623 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:52:02,624 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:52:02,624 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:52:02,624 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:52:02,687 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:52:08,944 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 12:52:08,944 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:52:08,944 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 12:52:08,999 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:52:08,999 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:52:08,999 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 12:52:08,999 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:52:09,066 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:52:15,303 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 12:52:15,304 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:52:15,305 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 12:52:15,376 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:52:15,376 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:52:15,377 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 12:52:15,377 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:52:15,445 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:52:21,673 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 12:52:21,674 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:52:21,674 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 12:52:21,780 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:52:21,781 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:52:21,781 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 12:52:21,781 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:52:21,847 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:52:28,093 | screen.py | line: 259 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 12:52:28,094 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:52:28,095 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:52:28,200 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:52:28,200 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:52:28,200 | screen.py | line: 151 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 12:52:28,201 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:52:28,268 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:53:18,576 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:53:18,646 | screen.py | line: 128 | KillAllScreenSessions | [('69011', 'RCN_short'), ('68862', 'VSM_pos'), ('68732', 'VSM_brd'), ('68602', 'VSM_clear'), ('68431', 'VSM_short')]
+DEBUG | 2025-03-31 12:53:35,791 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:53:35,867 | screen.py | line: 128 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 12:53:35,867 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:53:35,867 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:53:35,868 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:53:35,935 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:53:35,936 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:53:35,936 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:53:35,936 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:53:36,003 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:53:42,230 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 12:53:42,230 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:53:42,231 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 12:53:42,336 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:53:42,336 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:53:42,336 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 12:53:42,336 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:53:42,399 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:53:48,646 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 12:53:48,646 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:53:48,647 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 12:53:48,760 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:53:48,760 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:53:48,761 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 12:53:48,761 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:53:48,829 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:53:54,997 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 12:53:54,998 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:53:54,998 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 12:53:55,107 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:53:55,107 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:53:55,107 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 12:53:55,107 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:53:55,175 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:54:01,439 | screen.py | line: 259 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 12:54:01,439 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:54:01,439 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:54:01,550 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:54:01,550 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:54:01,550 | screen.py | line: 151 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 12:54:01,550 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:54:01,614 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:56:14,422 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:56:14,497 | screen.py | line: 128 | KillAllScreenSessions | [('70470', 'RCN_short'), ('70308', 'VSM_pos'), ('70150', 'VSM_brd'), ('70011', 'VSM_clear'), ('69813', 'VSM_short')]
+DEBUG | 2025-03-31 12:56:14,765 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:56:14,766 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:56:14,766 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:56:14,834 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:56:14,835 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:56:14,835 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:56:14,835 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:56:14,909 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:56:21,184 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 12:56:21,185 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:56:21,185 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 12:56:21,294 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:56:21,295 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:56:21,295 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 12:56:21,295 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:56:21,375 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:56:27,620 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 12:56:27,620 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:56:27,620 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 12:56:27,692 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:56:27,692 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:56:27,693 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 12:56:27,693 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:56:27,762 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:56:34,013 | screen.py | line: 259 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 12:56:34,014 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:56:34,014 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 12:56:34,118 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:56:34,118 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:56:34,118 | screen.py | line: 151 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 12:56:34,118 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:56:34,184 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:56:40,387 | screen.py | line: 259 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 12:56:40,387 | screen.py | line: 270 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:56:40,388 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:56:40,490 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:56:40,490 | screen.py | line: 150 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:56:40,491 | screen.py | line: 151 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 12:56:40,491 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:56:40,559 | screen.py | line: 155 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:58:48,624 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 12:58:48,694 | screen.py | line: 128 | KillAllScreenSessions | [('72066', 'RCN_short'), ('71902', 'VSM_pos'), ('71746', 'VSM_brd'), ('71606', 'VSM_clear'), ('71429', 'VSM_short')]
+DEBUG | 2025-03-31 12:58:48,994 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 12:58:48,994 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:58:48,994 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:58:49,062 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:58:52,065 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:58:52,066 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 12:58:52,072 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:58:52,239 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:58:58,579 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 12:58:58,579 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:58:58,580 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 12:58:58,660 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:59:01,663 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:59:01,664 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 12:59:01,664 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:59:01,817 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:59:08,129 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 12:59:08,130 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:59:08,130 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 12:59:08,232 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:59:11,234 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:59:11,235 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 12:59:11,235 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:59:11,404 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:59:17,737 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 12:59:17,738 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:59:17,738 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 12:59:17,840 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:59:20,844 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:59:20,844 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 12:59:20,844 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:59:21,017 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 12:59:27,318 | screen.py | line: 260 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 12:59:27,319 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 12:59:27,320 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 12:59:27,418 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 12:59:30,421 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 12:59:30,422 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 12:59:30,422 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 12:59:30,606 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:01:14,721 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:01:14,797 | screen.py | line: 128 | KillAllScreenSessions | [('73864', 'RCN_short'), ('73658', 'VSM_pos'), ('73455', 'VSM_brd'), ('73249', 'VSM_clear'), ('73038', 'VSM_short')]
+DEBUG | 2025-03-31 13:01:15,062 | screen.py | line: 261 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:01:15,062 | screen.py | line: 272 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:01:15,062 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:01:15,129 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:01:18,133 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:01:18,133 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:01:18,134 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:01:18,265 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:01:28,694 | screen.py | line: 261 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:01:28,694 | screen.py | line: 272 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:01:28,695 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:01:28,762 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:01:31,766 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:01:31,766 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:01:31,767 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:01:31,929 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:01:42,422 | screen.py | line: 261 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:01:42,423 | screen.py | line: 272 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:01:42,423 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:01:42,535 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:01:45,538 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:01:45,538 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:01:45,538 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:01:45,670 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:01:56,075 | screen.py | line: 261 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:01:56,075 | screen.py | line: 272 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:01:56,075 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:01:56,144 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:01:59,148 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:01:59,148 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:01:59,149 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:01:59,310 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:02:09,670 | screen.py | line: 261 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:02:09,671 | screen.py | line: 272 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:02:09,672 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:02:09,796 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:02:12,800 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:02:12,801 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:02:12,801 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:02:12,972 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:03:27,502 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:03:27,577 | screen.py | line: 128 | KillAllScreenSessions | [('75664', 'RCN_short'), ('75422', 'VSM_pos'), ('75179', 'VSM_brd'), ('74942', 'VSM_clear'), ('74708', 'VSM_short')]
+DEBUG | 2025-03-31 13:03:27,884 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:03:27,884 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:03:27,884 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:03:27,955 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:03:30,958 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:03:30,959 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:03:30,959 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:03:31,134 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:03:42,559 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:03:42,559 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:03:42,560 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:03:42,663 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:03:45,667 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:03:45,667 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:03:45,667 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:03:45,826 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:03:57,247 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:03:57,248 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:03:57,249 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:03:57,359 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:04:00,362 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:04:00,363 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:04:00,363 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:04:00,515 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:04:11,908 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:04:11,908 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:04:11,909 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:04:12,008 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:04:15,011 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:04:15,012 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:04:15,012 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:04:15,191 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:04:26,686 | screen.py | line: 260 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:04:26,686 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:04:26,687 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:04:26,799 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:04:29,803 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:04:29,803 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:04:29,804 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:04:29,973 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:10:50,329 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:10:50,404 | screen.py | line: 128 | KillAllScreenSessions | [('77377', 'RCN_short'), ('77151', 'VSM_pos'), ('76918', 'VSM_brd'), ('76678', 'VSM_clear'), ('76390', 'VSM_short')]
+DEBUG | 2025-03-31 13:10:50,716 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:10:50,716 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:10:50,716 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:10:50,782 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:10:53,785 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:10:53,786 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:10:53,786 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:10:53,946 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:11:05,390 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:11:05,391 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:11:05,391 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:11:05,466 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:11:08,469 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:11:08,469 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:11:08,470 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:11:08,607 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:11:19,956 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:11:19,957 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:11:19,957 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:11:20,061 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:11:23,064 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:11:23,065 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:11:23,065 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:11:23,213 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:11:34,618 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:11:34,619 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:11:34,619 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:11:34,692 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:11:37,696 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:11:37,696 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:11:37,697 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:11:37,853 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:11:49,359 | screen.py | line: 260 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:11:49,360 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:11:49,360 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:11:49,466 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:11:52,470 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:11:52,471 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:11:52,471 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:11:52,639 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:12:46,803 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 13:12:46,804 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 13:13:06,903 | screen.py | line: 167 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 13:13:06,903 | screen.py | line: 169 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 13:13:07,062 | screen.py | line: 365 | GetAxisFeedback | 200.91052996659243
+DEBUG | 2025-03-31 13:13:07,063 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:13:07,063 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:18:35,183 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:18:35,255 | screen.py | line: 128 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 13:18:35,255 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:18:35,256 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:18:35,256 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:18:35,320 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:18:38,324 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:18:38,325 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:18:38,325 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:18:38,503 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:18:49,994 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:18:49,995 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:18:49,995 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:18:50,089 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:18:53,093 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:18:53,094 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:18:53,094 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:18:53,254 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:19:04,676 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:19:04,677 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:19:04,677 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:19:04,789 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:19:07,793 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:19:07,793 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:19:07,793 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:19:07,959 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:19:19,307 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:19:19,308 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:19:19,308 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:19:19,410 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:19:22,414 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:19:22,414 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:19:22,415 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:19:22,569 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:19:34,036 | screen.py | line: 260 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:19:34,036 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:19:34,036 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:19:34,087 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:19:37,092 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:19:37,092 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:19:37,092 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:19:37,225 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:22:09,091 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 13:22:09,091 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 13:22:29,184 | screen.py | line: 167 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 13:22:29,184 | screen.py | line: 169 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 13:22:29,342 | screen.py | line: 365 | GetAxisFeedback | 327.4603641383353
+DEBUG | 2025-03-31 13:22:29,342 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:22:29,342 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:22:57,533 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:22:57,533 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:22:57,611 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-31 13:22:57,613 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:22:57,613 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:23:17,715 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:23:17,716 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:23:17,791 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 13:23:17,792 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:23:17,792 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:23:40,009 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:23:40,009 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:23:40,082 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 13:23:40,083 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:23:40,083 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:24:02,228 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:24:02,228 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:24:02,305 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 13:32:43,866 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:32:43,942 | screen.py | line: 128 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 13:32:43,942 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:32:43,942 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:32:43,942 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:32:44,027 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:32:47,030 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:32:47,031 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:32:47,031 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:32:47,205 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:32:58,600 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:32:58,601 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:32:58,601 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:32:58,720 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:33:01,724 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:33:01,725 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:33:01,725 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:33:01,893 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:33:13,353 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:33:13,354 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:33:13,354 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:33:13,426 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:33:16,430 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:33:16,430 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:33:16,430 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:33:16,572 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:33:27,919 | screen.py | line: 260 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:33:27,919 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:33:27,920 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:33:28,016 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:33:31,019 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:33:31,019 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:33:31,019 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:33:31,154 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:33:42,591 | screen.py | line: 260 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:33:42,592 | screen.py | line: 271 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:33:42,593 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:33:42,699 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:33:45,701 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:33:45,701 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:33:45,701 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:33:45,838 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:34:41,407 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 13:34:41,408 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 13:35:01,498 | screen.py | line: 167 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 13:35:01,498 | screen.py | line: 169 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 13:35:01,653 | screen.py | line: 365 | GetAxisFeedback | 381.24405032751093
+DEBUG | 2025-03-31 13:35:01,653 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:35:01,653 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:35:29,893 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:35:29,893 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:35:29,963 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-31 13:35:29,964 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:35:29,964 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:35:50,100 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:35:50,100 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:35:50,170 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 13:35:50,171 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:35:50,171 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:36:12,260 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:36:12,260 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:36:12,336 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 13:36:12,338 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:36:12,338 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:36:34,563 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:36:34,564 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:36:34,632 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 13:36:34,633 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:36:34,633 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:36:56,848 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:36:56,848 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:36:56,929 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 13:36:56,931 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 13:36:56,931 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 13:37:19,056 | screen.py | line: 167 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 13:37:19,056 | screen.py | line: 169 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 13:37:19,135 | screen.py | line: 330 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 13:44:07,087 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:44:07,182 | screen.py | line: 128 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 13:44:07,182 | screen.py | line: 262 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:44:07,182 | screen.py | line: 273 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:44:07,182 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:44:07,270 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:44:10,273 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:44:10,273 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:44:10,273 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:44:10,384 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:44:21,808 | screen.py | line: 262 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:44:21,809 | screen.py | line: 273 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:44:21,810 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:44:21,914 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:44:24,918 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:44:24,918 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:44:24,919 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:44:25,092 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:44:36,492 | screen.py | line: 262 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:44:36,492 | screen.py | line: 273 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:44:36,492 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:44:36,571 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:44:39,574 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:44:39,575 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:44:39,575 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:44:39,735 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:44:51,128 | screen.py | line: 262 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:44:51,129 | screen.py | line: 273 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:44:51,130 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:44:51,234 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:44:54,238 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:44:54,239 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:44:54,239 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:44:54,411 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:45:05,816 | screen.py | line: 262 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:45:05,817 | screen.py | line: 273 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:45:05,817 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:45:05,919 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:45:08,922 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:45:08,923 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:45:08,923 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:45:09,092 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:45:43,847 | screen.py | line: 160 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 13:45:43,847 | screen.py | line: 162 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 13:45:52,163 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:45:52,163 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:45:56,568 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:45:56,568 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:46:00,989 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:46:00,989 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:46:05,439 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:46:05,440 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:46:09,879 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:46:09,880 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:52:48,341 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:52:48,341 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:52:52,758 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:52:52,759 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:52:57,214 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:52:57,214 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:53:01,656 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:53:01,656 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:53:06,131 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:53:06,131 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:53:10,582 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:53:10,583 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:53:15,071 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:53:15,072 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:53:19,552 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:53:19,552 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:53:24,049 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:53:24,050 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+CRITICAL | 2025-03-31 13:53:25,318 | screen.py | line: 198 | SendCommandWithPasswordPrompt | Never received Password prompt
+DEBUG | 2025-03-31 13:53:39,985 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 13:53:39,985 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 13:54:01,108 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 13:54:01,109 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 13:54:54,144 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 13:54:54,217 | screen.py | line: 128 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 13:54:54,217 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 13:54:54,217 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:54:54,218 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:54:54,286 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:54:57,290 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:54:57,290 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 13:54:57,290 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:54:57,437 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:55:08,847 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 13:55:08,848 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:55:08,848 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 13:55:08,951 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:55:11,955 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:55:11,955 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 13:55:11,955 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:55:12,091 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:55:23,467 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 13:55:23,467 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:55:23,468 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 13:55:23,538 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:55:26,541 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:55:26,542 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 13:55:26,542 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:55:26,679 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:55:38,129 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 13:55:38,129 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:55:38,130 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 13:55:38,229 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:55:41,232 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:55:41,232 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 13:55:41,232 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:55:41,384 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:55:52,806 | screen.py | line: 266 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 13:55:52,807 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 13:55:52,807 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 13:55:52,907 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 13:55:55,911 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 13:55:55,912 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 13:55:55,912 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 13:55:56,083 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 13:56:10,740 | screen.py | line: 160 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 13:56:10,741 | screen.py | line: 162 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 13:56:18,134 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:56:18,134 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:56:21,554 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:56:21,554 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:56:24,998 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:56:24,998 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:56:28,446 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:56:28,447 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 13:57:52,683 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 13:57:52,684 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 14:00:41,259 | screen.py | line: 126 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 14:00:41,329 | screen.py | line: 128 | KillAllScreenSessions | [('107423', 'RCN_short'), ('107157', 'VSM_pos'), ('106909', 'VSM_brd'), ('106677', 'VSM_clear'), ('106386', 'VSM_short')]
+DEBUG | 2025-03-31 14:00:41,703 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 14:00:41,704 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:00:41,704 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:00:41,769 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:00:44,772 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:00:44,772 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 14:00:44,772 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:00:44,909 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:00:56,262 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 14:00:56,262 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:00:56,263 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 14:00:56,362 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:00:59,365 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:00:59,365 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 14:00:59,365 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:00:59,506 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:01:10,863 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 14:01:10,864 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:01:10,864 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 14:01:10,967 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:01:13,971 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:01:13,971 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 14:01:13,972 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:01:14,157 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:01:25,541 | screen.py | line: 266 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 14:01:25,541 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:01:25,541 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 14:01:25,633 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:01:28,636 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:01:28,638 | screen.py | line: 152 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 14:01:28,639 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:01:28,786 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:01:40,180 | screen.py | line: 266 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 14:01:40,180 | screen.py | line: 277 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:01:40,181 | screen.py | line: 138 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:01:40,281 | screen.py | line: 140 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:01:43,285 | screen.py | line: 151 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:01:43,285 | screen.py | line: 152 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 14:01:43,285 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:01:43,416 | screen.py | line: 156 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:01:59,084 | screen.py | line: 160 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 14:01:59,084 | screen.py | line: 162 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 14:02:06,428 | screen.py | line: 168 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 14:02:06,428 | screen.py | line: 170 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 14:02:22,244 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:02:22,244 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:02:43,372 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:02:43,372 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:02:44,532 | screen.py | line: 374 | GetAxisFeedback | 201.62172843581445
+DEBUG | 2025-03-31 14:02:44,532 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:02:44,532 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:03:16,787 | screen.py | line: 168 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:03:16,787 | screen.py | line: 170 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:03:17,855 | screen.py | line: 339 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-31 14:03:21,003 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:03:21,004 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:03:42,094 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:03:42,095 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:03:43,269 | screen.py | line: 374 | GetAxisFeedback | 700.6973812737642
+DEBUG | 2025-03-31 14:03:43,270 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:03:43,270 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:04:04,509 | screen.py | line: 168 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:04:04,509 | screen.py | line: 170 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:04:05,575 | screen.py | line: 339 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 14:04:08,732 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:04:08,733 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:04:29,854 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:04:29,854 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:04:31,007 | screen.py | line: 374 | GetAxisFeedback | 201.54450613333333
+DEBUG | 2025-03-31 14:04:31,009 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:04:31,009 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:04:53,282 | screen.py | line: 168 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:04:53,282 | screen.py | line: 170 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:04:54,348 | screen.py | line: 339 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 14:04:57,508 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:04:57,508 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:05:18,629 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:05:18,629 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:05:19,814 | screen.py | line: 374 | GetAxisFeedback | 801.3130791254753
+DEBUG | 2025-03-31 14:05:19,815 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:05:19,815 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:05:42,082 | screen.py | line: 168 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:05:42,082 | screen.py | line: 170 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:05:43,145 | screen.py | line: 339 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 14:05:46,339 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:05:46,339 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:06:07,455 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:06:07,455 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:06:08,608 | screen.py | line: 374 | GetAxisFeedback | 201.6505343047619
+DEBUG | 2025-03-31 14:06:08,609 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:06:08,609 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:06:30,841 | screen.py | line: 168 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:06:30,841 | screen.py | line: 170 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:06:31,924 | screen.py | line: 339 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 14:06:35,048 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:06:35,049 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:06:56,170 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:06:56,171 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:06:57,324 | screen.py | line: 374 | GetAxisFeedback | 800.4948102190476
+DEBUG | 2025-03-31 14:06:57,325 | screen.py | line: 160 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:06:57,326 | screen.py | line: 162 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:07:19,564 | screen.py | line: 168 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:07:19,564 | screen.py | line: 170 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:07:20,632 | screen.py | line: 339 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 14:07:23,815 | screen.py | line: 160 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:07:23,815 | screen.py | line: 162 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:07:44,914 | screen.py | line: 168 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:07:44,915 | screen.py | line: 170 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:07:46,095 | screen.py | line: 374 | GetAxisFeedback | 201.242185660019
+DEBUG | 2025-03-31 14:24:12,091 | screen.py | line: 127 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 14:24:12,260 | screen.py | line: 129 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 14:24:12,260 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 14:24:12,389 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:24:12,389 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:24:12,537 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:24:15,541 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:24:15,542 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 14:24:15,548 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:24:15,882 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:24:27,597 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 14:24:27,598 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:24:27,599 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 14:24:27,759 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:24:30,763 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:24:30,763 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 14:24:30,764 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:24:31,119 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:24:42,894 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 14:24:42,896 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:24:42,897 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 14:24:43,087 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:24:46,091 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:24:46,091 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 14:24:46,092 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:24:46,461 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:24:58,160 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 14:24:58,161 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:24:58,162 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 14:24:58,368 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:25:01,372 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:25:01,372 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 14:25:01,373 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:25:01,732 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:25:13,464 | screen.py | line: 275 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 14:25:13,466 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:25:13,466 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:25:13,624 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:25:16,628 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:25:16,628 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 14:25:16,629 | screen.py | line: 154 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:25:16,930 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:25:41,635 | screen.py | line: 161 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 14:25:41,635 | screen.py | line: 163 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 14:25:49,067 | screen.py | line: 169 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 14:25:49,067 | screen.py | line: 171 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 14:25:51,212 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:25:51,212 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:25:58,824 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:25:58,824 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:26:08,788 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:26:08,788 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:26:29,904 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:26:29,905 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:26:31,254 | screen.py | line: 386 | GetAxisFeedback | 380.86198783813745
+DEBUG | 2025-03-31 14:26:31,256 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:26:31,257 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:27:00,772 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:27:00,772 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:27:01,945 | screen.py | line: 351 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -o -r -c 700 -c 0
+DEBUG | 2025-03-31 14:27:05,226 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:27:05,227 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:27:26,463 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:27:26,463 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:27:27,893 | screen.py | line: 386 | GetAxisFeedback | 700.8689084150943
+DEBUG | 2025-03-31 14:27:27,895 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:27:27,895 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:27:48,454 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:27:48,454 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:27:49,675 | screen.py | line: 351 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 14:27:53,077 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:27:53,078 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:28:14,302 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:28:14,303 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:28:15,609 | screen.py | line: 386 | GetAxisFeedback | 201.74322075757576
+DEBUG | 2025-03-31 14:28:15,610 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:28:15,611 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:28:38,123 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:28:38,124 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:28:39,270 | screen.py | line: 351 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 14:28:42,630 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:28:42,630 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:29:03,882 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:29:03,884 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:29:05,314 | screen.py | line: 386 | GetAxisFeedback | 800.6934880925402
+DEBUG | 2025-03-31 14:29:05,316 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:29:05,316 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:29:27,890 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:29:27,890 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:29:29,065 | screen.py | line: 351 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 14:29:32,439 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:29:32,439 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:29:53,681 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:29:53,682 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:29:55,087 | screen.py | line: 386 | GetAxisFeedback | 201.65684578301887
+DEBUG | 2025-03-31 14:29:55,089 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:29:55,089 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:30:17,482 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:30:17,483 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:30:18,645 | screen.py | line: 351 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 800 -c 0
+DEBUG | 2025-03-31 14:30:21,995 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:30:21,995 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:30:43,234 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:30:43,235 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:30:44,650 | screen.py | line: 386 | GetAxisFeedback | 800.6901955524079
+DEBUG | 2025-03-31 14:30:44,652 | screen.py | line: 161 | StartLog |  StartLog for RCN_short
+DEBUG | 2025-03-31 14:30:44,652 | screen.py | line: 163 | StartLog |       screen -S RCN_short -X log on
+DEBUG | 2025-03-31 14:31:07,202 | screen.py | line: 169 | StopLog |  StopLog for RCN_short
+DEBUG | 2025-03-31 14:31:07,202 | screen.py | line: 171 | StopLog |       screen -S RCN_short -X log off
+DEBUG | 2025-03-31 14:31:08,352 | screen.py | line: 351 | SendShortCommand | SendShortCommand: ./trunk/bin/util/rcn/hydraulics-control-tuner -a lift -c 200 -c 0
+DEBUG | 2025-03-31 14:31:11,694 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:31:11,695 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:31:32,953 | screen.py | line: 169 | StopLog |  StopLog for VSM_pos
+DEBUG | 2025-03-31 14:31:32,954 | screen.py | line: 171 | StopLog |       screen -S VSM_pos -X log off
+DEBUG | 2025-03-31 14:31:34,288 | screen.py | line: 386 | GetAxisFeedback | 201.43129430331754
+DEBUG | 2025-03-31 14:48:59,777 | screen.py | line: 127 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 14:48:59,934 | screen.py | line: 129 | KillAllScreenSessions | []
+DEBUG | 2025-03-31 14:48:59,934 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 14:49:00,115 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:49:00,115 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:49:00,272 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:49:03,275 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:49:03,276 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 14:49:03,276 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:49:03,572 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:49:15,270 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 14:49:15,272 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:49:15,272 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 14:49:15,439 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:49:18,443 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:49:18,443 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 14:49:18,444 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:49:18,708 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:49:30,495 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 14:49:30,497 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:49:30,497 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 14:49:30,734 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:49:33,737 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:49:33,738 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 14:49:33,738 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:49:33,970 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:49:45,767 | screen.py | line: 275 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 14:49:45,768 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:49:45,769 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 14:49:45,972 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:49:48,976 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:49:48,977 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 14:49:48,977 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:49:49,479 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:50:00,897 | screen.py | line: 275 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 14:50:00,898 | screen.py | line: 287 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:50:00,898 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:50:00,965 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:50:03,968 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:50:03,968 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 14:50:03,968 | screen.py | line: 154 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:50:04,084 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:52:23,778 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:52:23,785 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 14:54:35,426 | screen.py | line: 161 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 14:54:35,426 | screen.py | line: 163 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 14:57:12,716 | screen.py | line: 127 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 14:57:12,783 | screen.py | line: 129 | KillAllScreenSessions | [('136552', 'RCN_short'), ('136294', 'VSM_pos'), ('136053', 'VSM_brd'), ('135807', 'VSM_clear'), ('135533', 'VSM_short')]
+DEBUG | 2025-03-31 14:57:13,057 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 14:57:13,115 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:57:13,115 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:57:13,181 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:57:16,184 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:57:16,184 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 14:57:16,184 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:57:16,302 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:57:27,648 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 14:57:27,650 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:57:27,650 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 14:57:27,718 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:57:30,721 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:57:30,721 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 14:57:30,721 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:57:30,860 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:57:42,199 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 14:57:42,201 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:57:42,201 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 14:57:42,268 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:57:45,271 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:57:45,272 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 14:57:45,272 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:57:45,411 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:57:56,780 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 14:57:56,781 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:57:56,781 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 14:57:56,850 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:57:59,854 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:57:59,854 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 14:57:59,854 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:57:59,934 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:58:11,239 | screen.py | line: 276 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 14:58:11,241 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 14:58:11,241 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 14:58:11,328 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 14:58:14,332 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 14:58:14,332 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 14:58:14,333 | screen.py | line: 154 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 14:58:14,462 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 14:58:32,513 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 14:58:32,513 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 15:00:48,532 | screen.py | line: 127 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 15:00:48,601 | screen.py | line: 129 | KillAllScreenSessions | [('143789', 'RCN_short'), ('143532', 'VSM_pos'), ('143267', 'VSM_brd'), ('143009', 'VSM_clear'), ('142774', 'VSM_short')]
+DEBUG | 2025-03-31 15:00:48,877 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 15:00:48,936 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:00:48,936 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 15:00:49,001 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:00:52,004 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:00:52,005 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 15:00:52,005 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:00:52,120 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:01:03,486 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 15:01:03,487 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:01:03,487 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 15:01:03,552 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:01:06,555 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:01:06,556 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 15:01:06,556 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:01:06,692 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:01:17,987 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 15:01:17,988 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:01:17,988 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 15:01:18,052 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:01:21,054 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:01:21,054 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 15:01:21,055 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:01:21,175 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:01:32,549 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 15:01:32,557 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:01:32,557 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 15:01:32,625 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:01:35,628 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:01:35,629 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 15:01:35,629 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:01:35,767 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:01:47,108 | screen.py | line: 276 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 15:01:47,109 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:01:47,109 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 15:01:47,180 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:01:50,184 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:01:50,184 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 15:01:50,184 | screen.py | line: 154 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:01:50,310 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:02:09,096 | screen.py | line: 161 | StartLog |  StartLog for VSM_pos
+DEBUG | 2025-03-31 15:02:09,096 | screen.py | line: 163 | StartLog |       screen -S VSM_pos -X log on
+DEBUG | 2025-03-31 15:04:45,504 | screen.py | line: 127 | KillAllScreenSessions | killing all screen sessions
+DEBUG | 2025-03-31 15:04:45,594 | screen.py | line: 129 | KillAllScreenSessions | [('147882', 'RCN_short'), ('147617', 'VSM_pos'), ('147346', 'VSM_brd'), ('147074', 'VSM_clear'), ('146768', 'VSM_short')]
+DEBUG | 2025-03-31 15:04:45,856 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_short
+DEBUG | 2025-03-31 15:04:45,924 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:04:45,924 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_short -d -m /bin/bash
+DEBUG | 2025-03-31 15:04:45,993 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:04:48,994 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:04:48,994 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_short.log ^M'
+DEBUG | 2025-03-31 15:04:48,994 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:04:49,089 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:05:00,449 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_clear
+DEBUG | 2025-03-31 15:05:00,450 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:05:00,450 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_clear -d -m /bin/bash
+DEBUG | 2025-03-31 15:05:00,541 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:05:03,544 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:05:03,545 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_clear.log ^M'
+DEBUG | 2025-03-31 15:05:03,545 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_clear -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:05:03,671 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:05:15,010 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_brd
+DEBUG | 2025-03-31 15:05:15,010 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:05:15,010 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_brd -d -m /bin/bash
+DEBUG | 2025-03-31 15:05:15,078 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:05:18,081 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:05:18,081 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_brd.log ^M'
+DEBUG | 2025-03-31 15:05:18,081 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_brd -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:05:18,211 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:05:29,563 | screen.py | line: 276 | __init__ | Initializing Screen object for VSM_pos
+DEBUG | 2025-03-31 15:05:29,566 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:05:29,567 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S VSM_pos -d -m /bin/bash
+DEBUG | 2025-03-31 15:05:29,644 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:05:32,647 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:05:32,647 | screen.py | line: 153 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/VSM_pos.log ^M'
+DEBUG | 2025-03-31 15:05:32,648 | screen.py | line: 154 | setUpLogginSession |       screen -S VSM_pos -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:05:32,777 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:05:44,099 | screen.py | line: 276 | __init__ | Initializing Screen object for RCN_short
+DEBUG | 2025-03-31 15:05:44,100 | screen.py | line: 288 | StartScreen | StartingScreen()
+DEBUG | 2025-03-31 15:05:44,101 | screen.py | line: 139 | OpenScreenSession |   OpeningScreen session with: screen -S RCN_short -d -m /bin/bash
+DEBUG | 2025-03-31 15:05:44,172 | screen.py | line: 141 | OpenScreenSession |   Finished OpenScreenSession
+DEBUG | 2025-03-31 15:05:47,175 | screen.py | line: 152 | setUpLogginSession |   Setting up logging session with:
+DEBUG | 2025-03-31 15:05:47,176 | screen.py | line: 153 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile /home/raul/scripts/RunHydraulicCommands/RCN_short.log ^M'
+DEBUG | 2025-03-31 15:05:47,176 | screen.py | line: 154 | setUpLogginSession |       screen -S RCN_short -X colon 'logfile flush 1^M'
+DEBUG | 2025-03-31 15:05:47,323 | screen.py | line: 157 | setUpLogginSession |   Finished setUpLogginSession
+DEBUG | 2025-03-31 15:06:12,319 | screen.py | line: 161 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 15:06:12,319 | screen.py | line: 163 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 15:07:09,791 | screen.py | line: 169 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 15:07:09,791 | screen.py | line: 171 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 15:08:20,032 | screen.py | line: 161 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 15:08:20,033 | screen.py | line: 163 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 15:08:22,213 | screen.py | line: 169 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 15:08:22,213 | screen.py | line: 171 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 15:08:28,552 | screen.py | line: 161 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 15:08:28,552 | screen.py | line: 163 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 15:08:30,734 | screen.py | line: 169 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 15:08:30,734 | screen.py | line: 171 | StopLog |       screen -S VSM_short -X log off
+DEBUG | 2025-03-31 15:09:21,264 | screen.py | line: 161 | StartLog |  StartLog for VSM_short
+DEBUG | 2025-03-31 15:09:21,264 | screen.py | line: 163 | StartLog |       screen -S VSM_short -X log on
+DEBUG | 2025-03-31 15:09:23,436 | screen.py | line: 169 | StopLog |  StopLog for VSM_short
+DEBUG | 2025-03-31 15:09:23,436 | screen.py | line: 171 | StopLog |       screen -S VSM_short -X log off
+CRITICAL | 2025-04-01 13:30:17,184 | yaml_manager.py | line: 24 | Convert2Dictionary | /home/raul/scripts/RunHydraulicCommands/project.yml does not exist
