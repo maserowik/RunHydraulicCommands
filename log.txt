@@ -131,3 +131,63 @@ ERROR | 2025-12-22 20:48:40,201 | remote_ssh_2.py | line: 277 | ExpectSpawn | DE
 ERROR | 2025-12-22 20:48:40,201 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
 
 INFO | 2025-12-22 20:48:40,302 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014829.log)
+DEBUG | 2025-12-23 07:28:33,960 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'IPAddress': '10.0.0.2',
+ 'IgnorePreviousRuns': True,
+ 'IsHardWired': True,
+ 'PassWordRequired': True,
+ 'SSHDebug': False,
+ 'SSHDebugConsole': False,
+ 'SSHLogDir': 'ServoLogs',
+ 'SSHRetryFallback': True,
+ 'StepPause_sec': 1,
+ 'Tasks': [{'Name': 'initialize.yml'},
+           {'Name': 'RS1_LiftLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_LiftSmallStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_TiltLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_ReachLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_SideshiftLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_SideshiftSmallStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_LiftLargeStepProcess.yml'},
+           {'Name': 'RS1_LiftSmallStepProcess.yml'},
+           {'Name': 'RS1_TiltLargeStepProcess.yml'},
+           {'Name': 'RS1_ReachLargeStepProcess.yml'},
+           {'Name': 'RS1_SideshiftLargeStepProcess.yml'},
+           {'Name': 'RS1_SideshiftSmallStepProcess.yml'}]}
+INFO | 2025-12-23 07:28:33,963 | task.py | line: 268 | RunTask | Running task initialize.yml
+DEBUG | 2025-12-23 07:28:33,965 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'Operations': [{'Type': 'GetVehicleDetails'}], 'Repeat': 1, 'define': 600}
+INFO | 2025-12-23 07:28:33,965 | task.py | line: 273 | RunTask | Will run task initialize.yml for 1 times
+INFO | 2025-12-23 07:28:33,965 | task.py | line: 203 | TaskFunction | Starting Task: GetVehicleDetails
+INFO | 2025-12-23 07:28:33,995 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-23 07:28:34,011 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=4458 for 10.0.0.2
+DEBUG | 2025-12-23 07:30:38,481 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'IPAddress': '10.0.0.2',
+ 'IgnorePreviousRuns': True,
+ 'IsHardWired': True,
+ 'PassWordRequired': True,
+ 'SSHDebug': False,
+ 'SSHDebugConsole': False,
+ 'SSHLogDir': 'ServoLogs',
+ 'SSHRetryFallback': True,
+ 'StepPause_sec': 1,
+ 'Tasks': [{'Name': 'initialize.yml'},
+           {'Name': 'RS1_LiftLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_LiftSmallStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_TiltLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_ReachLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_SideshiftLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_SideshiftSmallStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_LiftLargeStepProcess.yml'},
+           {'Name': 'RS1_LiftSmallStepProcess.yml'},
+           {'Name': 'RS1_TiltLargeStepProcess.yml'},
+           {'Name': 'RS1_ReachLargeStepProcess.yml'},
+           {'Name': 'RS1_SideshiftLargeStepProcess.yml'},
+           {'Name': 'RS1_SideshiftSmallStepProcess.yml'}]}
+INFO | 2025-12-23 07:30:38,485 | task.py | line: 268 | RunTask | Running task initialize.yml
+DEBUG | 2025-12-23 07:30:38,487 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'Operations': [{'Type': 'GetVehicleDetails'}], 'Repeat': 1, 'define': 600}
+INFO | 2025-12-23 07:30:38,487 | task.py | line: 273 | RunTask | Will run task initialize.yml for 1 times
+INFO | 2025-12-23 07:30:38,487 | task.py | line: 203 | TaskFunction | Starting Task: GetVehicleDetails
+INFO | 2025-12-23 07:30:38,513 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-23 07:30:38,525 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=4476 for 10.0.0.2
