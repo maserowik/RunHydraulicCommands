@@ -11,16 +11,6 @@ Tasks:
 - Name: initialize.yml
 - Name: RS1_LiftLargeStep.yml
   Repeat: 1
-- Name: RS1_LiftSmallStep.yml
-  Repeat: 1
-- Name: RS1_TiltLargeStep.yml
-  Repeat: 1
-- Name: RS1_ReachLargeStep.yml
-  Repeat: 1
-- Name: RS1_SideshiftLargeStep.yml
-  Repeat: 1
-- Name: RS1_SideshiftSmallStep.yml
-  Repeat: 1
 - Name: RS1_LiftLargeStepProcess.yml
 - Name: RS1_LiftSmallStepProcess.yml
 - Name: RS1_TiltLargeStepProcess.yml
