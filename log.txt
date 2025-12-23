@@ -1,0 +1,133 @@
+DEBUG | 2025-12-22 20:46:15,751 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'IPAddress': '10.0.0.2',
+ 'IgnorePreviousRuns': True,
+ 'IsHardWired': True,
+ 'PassWordRequired': True,
+ 'SSHDebug': False,
+ 'SSHDebugConsole': False,
+ 'SSHLogDir': 'ServoLogs',
+ 'SSHRetryFallback': True,
+ 'StepPause_sec': 1,
+ 'Tasks': [{'Name': 'initialize.yml'},
+           {'Name': 'RS1_SideshiftLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_SideshiftSmallStep.yml', 'Repeat': 1}]}
+INFO | 2025-12-22 20:46:15,758 | task.py | line: 268 | RunTask | Running task initialize.yml
+DEBUG | 2025-12-22 20:46:15,759 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'Operations': [{'Type': 'GetVehicleDetails'}], 'Repeat': 1, 'define': 600}
+INFO | 2025-12-22 20:46:15,759 | task.py | line: 273 | RunTask | Will run task initialize.yml for 1 times
+INFO | 2025-12-22 20:46:15,759 | task.py | line: 203 | TaskFunction | Starting Task: GetVehicleDetails
+INFO | 2025-12-22 20:46:15,783 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-22 20:46:15,795 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3238 for 10.0.0.2
+ERROR | 2025-12-22 20:46:18,413 | remote_ssh_2.py | line: 274 | ExpectSpawn | DEBUG: EOF encountered while waiting for password/END.
+ERROR | 2025-12-22 20:46:18,414 | remote_ssh_2.py | line: 275 | ExpectSpawn | DEBUG: Output before EOF:
+ssh: connect to host 10.0.0.2 port 22: No route to host
+
+INFO | 2025-12-22 20:46:18,515 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014615.log)
+INFO | 2025-12-22 20:46:18,551 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-22 20:46:18,558 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3243 for 10.0.0.2
+DEBUG | 2025-12-22 20:47:52,650 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'IPAddress': '10.0.0.2',
+ 'IgnorePreviousRuns': True,
+ 'IsHardWired': True,
+ 'PassWordRequired': True,
+ 'SSHDebug': False,
+ 'SSHDebugConsole': False,
+ 'SSHLogDir': 'ServoLogs',
+ 'SSHRetryFallback': True,
+ 'StepPause_sec': 1,
+ 'Tasks': [{'Name': 'initialize.yml'},
+           {'Name': 'RS1_SideshiftLargeStep.yml', 'Repeat': 1},
+           {'Name': 'RS1_SideshiftSmallStep.yml', 'Repeat': 1}]}
+INFO | 2025-12-22 20:47:52,656 | task.py | line: 268 | RunTask | Running task initialize.yml
+DEBUG | 2025-12-22 20:47:52,657 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'Operations': [{'Type': 'GetVehicleDetails'}], 'Repeat': 1, 'define': 600}
+INFO | 2025-12-22 20:47:52,657 | task.py | line: 273 | RunTask | Will run task initialize.yml for 1 times
+INFO | 2025-12-22 20:47:52,657 | task.py | line: 203 | TaskFunction | Starting Task: GetVehicleDetails
+INFO | 2025-12-22 20:47:52,682 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-22 20:47:52,695 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3262 for 10.0.0.2
+ERROR | 2025-12-22 20:48:02,899 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-22 20:48:02,899 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-22 20:48:03,000 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014752.log)
+INFO | 2025-12-22 20:48:03,021 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-22 20:48:03,029 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3267 for 10.0.0.2
+ERROR | 2025-12-22 20:48:13,241 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-22 20:48:13,242 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-22 20:48:13,343 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014803.log)
+INFO | 2025-12-22 20:48:13,343 | remote_ssh_2.py | line: 117 | GetVehicleName | VEH NAME:   SOFT: 
+INFO | 2025-12-22 20:48:13,343 | task.py | line: 268 | RunTask | Running task RS1_SideshiftLargeStep.yml
+DEBUG | 2025-12-22 20:48:13,353 | yaml_manager.py | line: 37 | Convert2Dictionary | 
+{'Operations': [{'Axis': 'sideshift', 'Type': 'SetDefAxis'},
+                {'TargetPos': -60, 'Type': 'HydCommand'},
+                {'OutName': 'StartPosition', 'Type': 'GetCurrentPos'},
+                {'OutName': 'StartLineNumber', 'Type': 'GetLineNumber'},
+                {'TargetPos': 60, 'Type': 'HydCommand'},
+                {'OutName': 'FinalPosition', 'Type': 'GetCurrentPos'},
+                {'OutName': 'FinalLineNumber', 'Type': 'GetLineNumber'},
+                {'Input1': 'FinalPosition',
+                 'Input2': 60,
+                 'Operation': '-',
+                 'Output': 'SmallPositiveStep',
+                 'Type': 'MathOperation'},
+                {'Input': 'SmallPositiveStep',
+                 'Output': 'SideshiftLargeStepPosDir_Overshoot',
+                 'Type': 'OutputResult'},
+                {'EndLineNumber': 'FinalLineNumber',
+                 'Name': 'SideshiftLargeStepPosDir_[COUNTER]',
+                 'StartLineNumber': 'StartLineNumber',
+                 'Type': 'OutputLogFile'},
+                {'TargetPos': -60, 'Type': 'HydCommand'},
+                {'OutName': 'FinalPositionL', 'Type': 'GetCurrentPos'},
+                {'OutName': 'FinalLineNumberL', 'Type': 'GetLineNumber'},
+                {'Input1': -60,
+                 'Input2': 'FinalPositionL',
+                 'Operation': '-',
+                 'Output': 'OvershootInNegDirection',
+                 'Type': 'MathOperation'},
+                {'Input': 'OvershootInNegDirection',
+                 'Output': 'SideshiftLargeStepNegDir_Overshoot',
+                 'Type': 'OutputResult'},
+                {'EndLineNumber': 'FinalLineNumberL',
+                 'Name': 'SideshiftLargeStepNegDir_[COUNTER]',
+                 'StartLineNumber': 'FinalLineNumber',
+                 'Type': 'OutputLogFile'}],
+ 'vars': ['sideshift',
+          -60,
+          60,
+          'SideshiftLargeStepNegDir_Overshoot',
+          'SideshiftLargeStepNegDir_[COUNTER]',
+          'SideshiftLargeStepPosDir_Overshoot',
+          'SideshiftLargeStepPosDir_[COUNTER]']}
+INFO | 2025-12-22 20:48:13,353 | task.py | line: 273 | RunTask | Will run task RS1_SideshiftLargeStep.yml for 1 times
+INFO | 2025-12-22 20:48:13,353 | task.py | line: 203 | TaskFunction | Starting Task: SetDefAxis
+INFO | 2025-12-22 20:48:13,353 | task.py | line: 203 | TaskFunction | Starting Task: HydCommand
+INFO | 2025-12-22 20:48:13,353 | task.py | line: 114 | HydCommandFun | [HYD_COMMAND] axis: sideshift --> -60
+INFO | 2025-12-22 20:48:13,373 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=True, bypassHostKey=True)
+INFO | 2025-12-22 20:48:13,387 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3272 for 10.0.0.2
+ERROR | 2025-12-22 20:48:16,422 | remote_ssh_2.py | line: 274 | ExpectSpawn | DEBUG: EOF encountered while waiting for password/END.
+ERROR | 2025-12-22 20:48:16,423 | remote_ssh_2.py | line: 275 | ExpectSpawn | DEBUG: Output before EOF:
+ssh: connect to host 10.0.0.9 port 22: No route to host
+
+INFO | 2025-12-22 20:48:16,524 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014813.log)
+INFO | 2025-12-22 20:48:19,524 | remote_ssh_2.py | line: 343 | RunHydrCommand | Identifying latest log file
+DEBUG | 2025-12-22 20:48:19,620 | misc.py | line: 17 | GetYearMonthDate | ic| strYear: '2025', strMonth: '12', strDate: '22'
+INFO | 2025-12-22 20:48:19,620 | remote_ssh_2.py | line: 354 | GetLogFileAtMachine | Log file location: /home/seegrid/Logs/2025/12/22
+INFO | 2025-12-22 20:48:19,620 | remote_ssh_2.py | line: 357 | GetLogFileAtMachine | Submit command for file find: 
+find /home/seegrid/Logs/2025/12/22 -name "*servo-axis-sideshift*"
+INFO | 2025-12-22 20:48:19,633 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-22 20:48:19,640 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3277 for 10.0.0.2
+ERROR | 2025-12-22 20:48:29,851 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-22 20:48:29,852 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-22 20:48:29,961 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014819.log)
+INFO | 2025-12-22 20:48:29,961 | task.py | line: 203 | TaskFunction | Starting Task: GetCurrentPos
+INFO | 2025-12-22 20:48:29,961 | remote_ssh_2.py | line: 401 | GetCurrentPosition | Getting current position for sideshift:
+INFO | 2025-12-22 20:48:29,961 | remote_ssh_2.py | line: 402 | GetCurrentPosition | Running command 
+timeout 2s ~/trunk/util/misc/print-hydraulic-positions.py -a sideshift
+INFO | 2025-12-22 20:48:29,976 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-22 20:48:29,989 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=3282 for 10.0.0.2
+ERROR | 2025-12-22 20:48:40,201 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-22 20:48:40,201 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-22 20:48:40,302 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251223_014829.log)
