@@ -2,6 +2,7 @@
 .blink/
 .venv/
 venv
+ServoLogs/
 
 # Folders
 **/logs/
