@@ -10,6 +10,8 @@ tmp/
 .vs/
 .idea/
 Backups/
+__pycache__/
+
 
 # OS / Editor files
 .DS_Store
@@ -22,4 +24,6 @@ Thumbs.db
 *.json
 *.txt
 !requirements.txt
+
+
 
