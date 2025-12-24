@@ -5,6 +5,7 @@ import subprocess
 import yaml
 import os
 import sys
+import re
 
 class RobotTestGUI:
     def __init__(self, root):
@@ -55,6 +56,12 @@ class RobotTestGUI:
         self.results_label = tk.Label(results_frame, text="results/")
         self.results_label.pack(anchor="w")
 
+        # --- Current task status ---
+        status_frame = tk.LabelFrame(root, text="Current Task", padx=5, pady=5)
+        status_frame.pack(fill="x", padx=5, pady=2)
+        self.status_label = tk.Label(status_frame, text="No task running", font=("Arial", 10, "bold"))
+        self.status_label.pack(anchor="w")
+
         # --- Buttons ---
         btn_frame = tk.Frame(root)
         btn_frame.pack(pady=5)
@@ -92,6 +99,20 @@ class RobotTestGUI:
     def toggle_all_tasks(self):
         for var in self.task_vars.values():
             var.set(self.select_all_var.get())
+
+    def highlight_task(self, task_name):
+        """Highlight the currently running task."""
+        for cb in self.task_checks:
+            cb_text = cb.cget("text")
+            if task_name in cb_text:
+                cb.config(bg="#90EE90", fg="black")  # Light green background
+            else:
+                cb.config(bg="SystemButtonFace", fg="black")  # Reset to default
+
+    def clear_task_highlights(self):
+        """Clear all task highlights."""
+        for cb in self.task_checks:
+            cb.config(bg="SystemButtonFace", fg="black")
 
     def update_tasks(self):
         # Reset connection when robot type or load changes
@@ -153,6 +174,7 @@ class RobotTestGUI:
         
         # Disable connect button during connection
         self.connect_btn.config(state="disabled", text="Connecting...")
+        self.status_label.config(text="Connecting to robot...", fg="orange")
         self.append_log("Connecting to robot...\n")
         
         # Run connection in thread to not block GUI
@@ -190,6 +212,7 @@ class RobotTestGUI:
                 load = self.load_var.get()
                 results_folder = os.path.join("results", robot, self.robot_serial, load)
                 self.results_label.config(text=results_folder)
+                self.status_label.config(text=f"Connected to {self.robot_serial}", fg="green")
                 
                 # Enable start button
                 self.start_btn.config(state="normal")
@@ -204,6 +227,7 @@ class RobotTestGUI:
                 load = self.load_var.get()
                 results_folder = os.path.join("results", robot, self.robot_serial, load)
                 self.results_label.config(text=results_folder)
+                self.status_label.config(text=f"Connected (fallback serial)", fg="orange")
                 
                 self.start_btn.config(state="normal")
                 self.connect_btn.config(state="normal", text="Reconnect", bg="#ffc107")
@@ -211,6 +235,7 @@ class RobotTestGUI:
         except Exception as e:
             self.append_log(f"✗ Connection failed: {e}\n")
             self.connect_btn.config(state="normal", text="Retry Connection", bg="#dc3545")
+            self.status_label.config(text="Connection failed", fg="red")
             self.is_connected = False
 
     # ---------------------------
@@ -220,11 +245,13 @@ class RobotTestGUI:
     def start_test(self):
         if not self.is_connected or not self.robot_serial:
             self.append_log("ERROR: Please connect to robot first!\n")
+            self.status_label.config(text="ERROR: Not connected", fg="red")
             return
             
         selected_tasks = [name for name, var in self.task_vars.items() if var.get()]
         if not selected_tasks:
             self.append_log("ERROR: No tasks selected.\n")
+            self.status_label.config(text="ERROR: No tasks selected", fg="red")
             return
 
         robot = self.robot_var.get()
@@ -234,6 +261,7 @@ class RobotTestGUI:
         results_folder = os.path.join("results", robot, self.robot_serial, load)
         os.makedirs(results_folder, exist_ok=True)
         self.results_label.config(text=results_folder)
+        self.status_label.config(text="Starting tests...", fg="blue")
 
         project_file = f"{robot}_project.yml"
         with open(project_file, "r") as f:
@@ -270,17 +298,37 @@ class RobotTestGUI:
                 if self.stop_flag.is_set():
                     self.process.terminate()
                     self.append_log("Test stopped by user.\n")
+                    self.clear_task_highlights()
+                    self.status_label.config(text="Test stopped", fg="red")
                     return
+                
                 self.append_log(line)
+                
+                # Check if line contains task information and highlight it
+                if "Running task" in line:
+                    # Extract task name from log line
+                    # Example: "Running task RS1_LiftLargeStep.yml for 1 times"
+                    match = re.search(r'Running task (\S+\.yml)', line)
+                    if match:
+                        task_name = match.group(1).replace('.yml', '')
+                        self.highlight_task(task_name)
+                        self.status_label.config(text=f"Running: {task_name}", fg="green")
+                
             self.process.wait()
+            self.clear_task_highlights()
+            self.status_label.config(text="All tasks completed ✓", fg="blue")
             self.append_log("Test completed.\n")
         except Exception as e:
+            self.clear_task_highlights()
+            self.status_label.config(text="Error occurred", fg="red")
             self.append_log(f"Error running test: {e}\n")
 
     def stop_test(self):
         self.stop_flag.set()
         if self.process:
             self.process.terminate()
+            self.clear_task_highlights()
+            self.status_label.config(text="Stopping test...", fg="orange")
             self.append_log("Stopping test...\n")
 
 # ---------------------------
