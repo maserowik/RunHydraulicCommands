@@ -4,8 +4,8 @@
 venv
 
 # Folders
-cameras/
 **/logs/
+results/
 tmp/
 .vs/
 .idea/
@@ -20,3 +20,6 @@ Thumbs.db
 # Project files
 *.log
 *.json
+*.txt
+!requirements.txt
+
