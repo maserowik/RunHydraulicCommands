@@ -1,0 +1,190 @@
+Warning: Permanently added '10.0.0.2' (ECDSA) to the list of known hosts.
+seegrid@10.0.0.2's password: fuzzyrobotcroaksdownhill
+
+Subscribing to lift feedback...
+SeegridLog <seegrid.logger.SeegridLog.SeegridLog object at 0x7ff469ba7a90> initializing at level debug, localOnly = True, prefix = True.
+[1767120234 163041 26034 Seegrid ERROR] Subscribe attempt failed: 
+[1767120234 163100 26034 Seegrid ERROR] Reconnect appears to already be underway. (None, None, None)
+[1767120234 163041 26034 Seegrid ERROR] Subscribe attempt failed: 
+[1767120234 163100 26034 Seegrid ERROR] Reconnect appears to already be underway. (None, None, None)
+[1767120234 168130 26034 Seegrid INFO ] Building protocol: <class 'seegrid.messaging.Amqp.AmqpProtocol'>
+[1767120234 170003 26034 Seegrid INFO ] Connection made; beginning authentication.
+[1767120234 173434 26034 Seegrid INFO ] connection ready
+[1767120234 173608 26034 Seegrid INFO ] Authentication complete.
+[1767120234 173650 26034 Seegrid DEBUG] Creating channel.
+[1767120234 176458 26034 Seegrid DEBUG] Channel added successfully.
+[1767120234 176549 26034 Seegrid DEBUG] channel opened
+[1767120234 181274 26034 Seegrid INFO ] Starting to consume from reply queue amq.gen-EyKuKfWTEXsKyCWmegYXbg.
+[1767120234 182179 26034 Seegrid DEBUG] The channel is open, and the reply queue is established.
+[1767120234 182245 26034 Seegrid DEBUG] The current connection ID of established connection is 11f8152a-3f1b-41f9-9814-6770b6482d14
+[1767120234 182385 26034 Seegrid DEBUG] Running delayed ops: [<seegrid.messaging.Amqp.DelayedOp object at 0x7ff469b3c160>]
+[1767120234 182577 26034 Seegrid INFO ] Subscribing callback <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>> to seegrid/vsmExchange->servo_axis.feedback.lift.
+[1767120234 182633 26034 Seegrid INFO ] Declaring queue servo.AxisFeedbackMsgQueue_0782a270-bfc7-4a2d-a071-46f7b8910f91_servo_axis.feedback.lift_0000000000000000.
+[1767120234 188281 26034 Seegrid INFO ] Declaring exchange seegrid/vsmExchange.
+[1767120234 189213 26034 Seegrid INFO ] Binding servo.AxisFeedbackMsgQueue_0782a270-bfc7-4a2d-a071-46f7b8910f91_servo_axis.feedback.lift_0000000000000000 queue to seegrid/vsmExchange exchange with routing key servo_axis.feedback.lift.
+[1767120234 191825 26034 Seegrid DEBUG] Subscribed using tag servo.AxisFeedbackMsgQueue_0782a270-bfc7-4a2d-a071-46f7b8910f91_servo_axis.feedback.lift_0000000000000000.
+[1767120234 191890 26034 Seegrid DEBUG] Delayed call of <bound method AmqpFactory._subscribe of <seegrid.messaging.Amqp.AmqpFactory object at 0x7ff469ba79e8>> succeeded with value None - firing callback!
+Subscription successful!
+[1767120234 192039 26034 Seegrid DEBUG] Skipping the cached subscription for [()_<bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>_<class 'seegrid.messaging.msgs.ServoAxisMsgs_pb2.AxisFeedbackMsg'>_Exchange_False_False_None_None_None_None_application/x-protobuf_seegrid/vsmExchange_servo_axis.feedback.lift_{}] as its connection ID 11f8152a-3f1b-41f9-9814-6770b6482d14 matches with the current connection ID 11f8152a-3f1b-41f9-9814-6770b6482d14.
+[1767120234 192129 26034 Seegrid DEBUG] Connection status changed to True.
+[1767120234 205597 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21367
+[1767120234 226026 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24852
+[1767120234 246315 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21220
+[1767120234 266045 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24961
+[1767120234 285784 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24816
+[1767120234 306384 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24859
+[1767120234 327240 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24919
+[1767120234 346565 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24969
+[1767120234 367785 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24820
+[1767120234 387287 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.28437
+[1767120234 408120 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24856
+[1767120234 430426 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21031
+[1767120234 449047 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24806
+[1767120234 468390 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24815
+[1767120234 488056 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24812
+[1767120234 507803 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24820
+[1767120234 529665 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24795
+[1767120234 548299 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24803
+[1767120234 568856 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24813
+[1767120234 590055 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21399
+[1767120234 610008 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24796
+[1767120234 629332 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24803
+[1767120234 648855 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24839
+[1767120234 671162 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21392
+[1767120234 690725 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21306
+[1767120234 710270 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21234
+[1767120234 729532 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21170
+[1767120234 749532 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24798
+[1767120234 769922 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21324
+[1767120234 789905 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21274
+[1767120234 809681 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21242
+[1767120234 830228 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24809
+[1767120234 852051 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24865
+[1767120234 870575 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21285
+[1767120234 889874 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21265
+[1767120234 910344 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.28247
+[1767120234 932570 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21320
+[1767120234 951392 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21262
+[1767120234 970955 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24958
+[1767120234 990666 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24814
+[1767120235 010656 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21316
+[1767120235 033463 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21237
+[1767120235 051498 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21170
+[1767120235 071123 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24823
+[1767120235 090731 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24881
+[1767120235 111964 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24938
+[1767120235 131091 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24967
+[1767120235 151295 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21357
+[1767120235 171871 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21316
+[1767120235 192634 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24944
+[1767120235 212064 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.25002
+[1767120235 230974 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21355
+[1767120235 251670 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.28474
+[1767120235 272578 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21194
+[1767120235 292955 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24947
+[1767120235 312113 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24821
+[1767120235 333436 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24857
+[1767120235 353725 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24908
+[1767120235 372591 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24950
+[1767120235 391381 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21337
+[1767120235 411185 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21272
+[1767120235 431158 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21205
+[1767120235 451428 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24792
+[1767120235 471426 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21319
+[1767120235 491422 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24866
+[1767120235 511826 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21168
+[1767120235 531643 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24800
+[1767120235 551942 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21321
+[1767120235 572367 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21272
+[1767120235 592224 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.25003
+[1767120235 612635 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.24808
+[1767120235 632292 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+lift: 3001.21325
+[1767120235 652286 26034 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7ff469ba7b70>>
+Unhandled error in Deferred:
+
+Traceback (most recent call last):
+Failure: twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.
+
+lift: 3001.21267
+[1767120235 670110 26034 Seegrid WARN ] Error reported: b'AMQP_RECEIVE_FAILED's Failed to receive a servo_axis.feedback.lift message:
+[Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+[1767120235 670673 26034 Seegrid WARN ] AMQP connection was lost.
+[1767120235 670110 26034 Seegrid WARN ] Error reported: b'AMQP_RECEIVE_FAILED's Failed to receive a servo_axis.feedback.lift message:
+[Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+[1767120235 670673 26034 Seegrid WARN ] AMQP connection was lost.
+[1767120235 670725 26034 Seegrid DEBUG] Connection status changed to False.
+END

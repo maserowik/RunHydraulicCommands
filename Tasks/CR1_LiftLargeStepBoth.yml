@@ -1,0 +1,80 @@
+
+vars:
+  - &Axis                       lift
+
+  - &lowPos                     520
+  - &highPos                    3450
+  
+  - &NegDirOvershootName        LiftLargeStepNegDirBoth_Overshoot
+  - &NegDirCSVFile              LiftLargeStepNegDirBoth_[COUNTER]
+
+  - &PosDirOvershootName        LiftLargeStepPosDirBoth_Overshoot
+  - &PosDirCSVFile              LiftLargeStepPosDirBoth_[COUNTER]
+
+
+
+Operations:
+
+  - Type: SetDefAxis
+    Axis: *Axis
+
+  - Type: HydCommand
+    TargetPos: *lowPos
+  
+
+  # - Type: GetCurrentPos
+  #   OutName: StartPosition
+
+  # - Type: GetLineNumber
+  #   OutName: StartLineNumber
+
+  - Type: HydCommand
+    TargetPos: *highPos
+  
+
+  - Type: GetCurrentPos
+    OutName: FinalPosition
+
+  # - Type: GetLineNumber
+  #   OutName: FinalLineNumber
+
+  - Type: MathOperation
+    Input1: FinalPosition
+    Input2: *highPos
+    Operation: "-"
+    Output: SmallPositiveStep
+
+  - Type: OutputResult
+    Input: SmallPositiveStep
+    Output: *PosDirOvershootName
+
+  - Type: OutputLogFile
+    # StartLineNumber: StartLineNumber
+    # EndLineNumber: FinalLineNumber
+    Name: *PosDirCSVFile
+
+  - Type: HydCommand
+    TargetPos: *lowPos
+  
+  - Type: GetCurrentPos
+    OutName: FinalPositionL
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumberL
+
+  - Type: MathOperation
+    Input1: *lowPos
+    Input2: FinalPositionL
+    Operation: "-"
+    Output: OvershootInNegDirection
+
+  - Type: OutputResult
+    Input: OvershootInNegDirection
+    Output: *NegDirOvershootName 
+
+  - Type: OutputLogFile
+    StartLineNumber: FinalLineNumber
+    EndLineNumber: FinalLineNumberL
+    Name: *NegDirCSVFile
+
+

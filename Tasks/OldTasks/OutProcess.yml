@@ -1,0 +1,7 @@
+
+vars:
+  - &Temp              Temp
+  
+PostOperations:
+
+  - Type: OutProcess

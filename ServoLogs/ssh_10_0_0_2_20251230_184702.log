@@ -1,0 +1,188 @@
+Warning: Permanently added '10.0.0.2' (ECDSA) to the list of known hosts.
+seegrid@10.0.0.2's password: fuzzyrobotcroaksdownhill
+
+Subscribing to sideshift feedback...
+SeegridLog <seegrid.logger.SeegridLog.SeegridLog object at 0x7f338818aac8> initializing at level debug, localOnly = True, prefix = True.
+[1767120431 913909 28184 Seegrid ERROR] Subscribe attempt failed: 
+[1767120431 913987 28184 Seegrid ERROR] Reconnect appears to already be underway. (None, None, None)
+[1767120431 913909 28184 Seegrid ERROR] Subscribe attempt failed: 
+[1767120431 913987 28184 Seegrid ERROR] Reconnect appears to already be underway. (None, None, None)
+[1767120431 919551 28184 Seegrid INFO ] Building protocol: <class 'seegrid.messaging.Amqp.AmqpProtocol'>
+[1767120431 921276 28184 Seegrid INFO ] Connection made; beginning authentication.
+[1767120431 924558 28184 Seegrid INFO ] connection ready
+[1767120431 924676 28184 Seegrid INFO ] Authentication complete.
+[1767120431 924713 28184 Seegrid DEBUG] Creating channel.
+[1767120431 926507 28184 Seegrid DEBUG] Channel added successfully.
+[1767120431 926583 28184 Seegrid DEBUG] channel opened
+[1767120431 931586 28184 Seegrid INFO ] Starting to consume from reply queue amq.gen-xnP8iEmmSciY5Rs53YCcCA.
+[1767120431 932567 28184 Seegrid DEBUG] The channel is open, and the reply queue is established.
+[1767120431 932662 28184 Seegrid DEBUG] The current connection ID of established connection is 37f43853-b6f6-4b20-845d-4c42f7b14152
+[1767120431 932844 28184 Seegrid DEBUG] Running delayed ops: [<seegrid.messaging.Amqp.DelayedOp object at 0x7f338811f198>]
+[1767120431 933053 28184 Seegrid INFO ] Subscribing callback <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>> to seegrid/vsmExchange->servo_axis.feedback.sideshift.
+[1767120431 933100 28184 Seegrid INFO ] Declaring queue servo.AxisFeedbackMsgQueue_edd273ba-20dc-4bf7-ab6b-24868d202b89_servo_axis.feedback.sideshift_0000000000000000.
+[1767120431 937556 28184 Seegrid INFO ] Declaring exchange seegrid/vsmExchange.
+[1767120431 938603 28184 Seegrid INFO ] Binding servo.AxisFeedbackMsgQueue_edd273ba-20dc-4bf7-ab6b-24868d202b89_servo_axis.feedback.sideshift_0000000000000000 queue to seegrid/vsmExchange exchange with routing key servo_axis.feedback.sideshift.
+[1767120431 941256 28184 Seegrid DEBUG] Subscribed using tag servo.AxisFeedbackMsgQueue_edd273ba-20dc-4bf7-ab6b-24868d202b89_servo_axis.feedback.sideshift_0000000000000000.
+[1767120431 941316 28184 Seegrid DEBUG] Delayed call of <bound method AmqpFactory._subscribe of <seegrid.messaging.Amqp.AmqpFactory object at 0x7f338818aa20>> succeeded with value None - firing callback!
+Subscription successful!
+[1767120431 941479 28184 Seegrid DEBUG] Skipping the cached subscription for [()_<bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>_<class 'seegrid.messaging.msgs.ServoAxisMsgs_pb2.AxisFeedbackMsg'>_Exchange_False_False_None_None_None_None_application/x-protobuf_seegrid/vsmExchange_servo_axis.feedback.sideshift_{}] as its connection ID 37f43853-b6f6-4b20-845d-4c42f7b14152 matches with the current connection ID 37f43853-b6f6-4b20-845d-4c42f7b14152.
+[1767120431 941564 28184 Seegrid DEBUG] Connection status changed to True.
+[1767120431 956205 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87003
+[1767120431 976261 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86964
+[1767120431 996316 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87988
+[1767120432 016584 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87980
+[1767120432 036527 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86046
+[1767120432 056546 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.89048
+[1767120432 076837 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86984
+[1767120432 099725 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87985
+[1767120432 119108 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87997
+[1767120432 139259 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88014
+[1767120432 159021 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88016
+[1767120432 178206 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87981
+[1767120432 199317 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87987
+[1767120432 219049 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87996
+[1767120432 238886 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87976
+[1767120432 258620 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87981
+[1767120432 279357 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87982
+[1767120432 299744 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87986
+[1767120432 319736 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87990
+[1767120432 339465 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87982
+[1767120432 363114 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86986
+[1767120432 380080 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88011
+[1767120432 400605 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87979
+[1767120432 420648 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87988
+[1767120432 440254 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87993
+[1767120432 461398 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88000
+[1767120432 481866 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87979
+[1767120432 502593 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87985
+[1767120432 523081 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88999
+[1767120432 541743 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87976
+[1767120432 562356 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87974
+[1767120432 582237 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87971
+[1767120432 603194 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87967
+[1767120432 622948 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87963
+[1767120432 642577 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87972
+[1767120432 663127 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88942
+[1767120432 681599 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88967
+[1767120432 701496 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88983
+[1767120432 721405 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87967
+[1767120432 744225 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86975
+[1767120432 763554 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87946
+[1767120432 782579 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87936
+[1767120432 804015 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87021
+[1767120432 823537 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88948
+[1767120432 843204 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87956
+[1767120432 864832 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87962
+[1767120432 883496 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88927
+[1767120432 904091 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87976
+[1767120432 924011 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.89008
+[1767120432 947256 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87058
+[1767120432 963916 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87973
+[1767120432 983182 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87969
+[1767120433 003701 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87954
+[1767120433 023411 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88898
+[1767120433 043336 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86058
+[1767120433 065690 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.85984
+[1767120433 083618 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88021
+[1767120433 103435 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87980
+[1767120433 125055 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87038
+[1767120433 143681 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88024
+[1767120433 163827 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87003
+[1767120433 183998 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88910
+[1767120433 203960 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88961
+[1767120433 224158 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.89016
+[1767120433 244606 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87988
+[1767120433 264180 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87973
+[1767120433 284938 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.87967
+[1767120433 304295 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86938
+[1767120433 325047 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.86889
+[1767120433 344444 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88909
+[1767120433 365646 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+sideshift: -4.88929
+[1767120433 384761 28184 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f338818aba8>>
+Unhandled error in Deferred:
+
+Traceback (most recent call last):
+Failure: twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.
+
+sideshift: -4.87949
+[1767120433 398015 28184 Seegrid WARN ] Error reported: b'AMQP_RECEIVE_FAILED's Failed to receive a servo_axis.feedback.sideshift message:
+[Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+[1767120433 398015 28184 Seegrid WARN ] Error reported: b'AMQP_RECEIVE_FAILED's Failed to receive a servo_axis.feedback.sideshift message:
+[Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+[1767120433 399300 28184 Seegrid WARN ] AMQP connection was lost.
+[1767120433 399300 28184 Seegrid WARN ] AMQP connection was lost.
+[1767120433 399425 28184 Seegrid DEBUG] Connection status changed to False.
+END

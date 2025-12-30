@@ -1,0 +1,12 @@
+Warning: Permanently added '10.0.0.9' (ED25519) to the list of known hosts.
+seegrid@10.0.0.9's password: fuzzyrobotcroaksdownhill
+
+Number of commands parsed: 2. Utility in closed loop control mode.
+Waiting for messaging to initialize.
+Sent safety module motion enable: 1
+Starting motion.
+Sending position & velocity commands.
+Stopping axis: tilt
+Sent safety module motion enable: 0
+Done. Cleaning up.
+END

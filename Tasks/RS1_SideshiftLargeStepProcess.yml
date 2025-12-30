@@ -1,0 +1,57 @@
+
+vars:
+  - &NegDirCSVFile              SideshiftLargeStepNegDir_[COUNTER]
+  - &PosDirCSVFile              SideshiftLargeStepPosDir_[COUNTER]
+
+  # Process functions
+
+  # Functions to be applied to &NegDirCSVFile
+  - &LabelForNegDirCSVFile SideshiftLargeStepNegDir
+  
+  # - &GetMaxVelocityNegDir
+  #   Name: GetMaxVelocity
+  #   Args: 'MaxTargetV_mmpsec: -74.0, DelayStart_ms: 200'
+  #   Label: *LabelForNegDirCSVFile
+  
+  - &GetMaxVelocityInstforNegDir
+    Name: GetMaxVelocityInst
+    Args: 'timeWindow_ms: 300'
+    Label: *LabelForNegDirCSVFile
+  
+  - &GetStartOfMotionCommandNegDir
+    Name: GetStartOfMotionCommand
+    Args: 'VThresh: -5.0, SystemDelay_ms: 50'
+    Label: *LabelForNegDirCSVFile  
+
+  # Functions to be applied to &PosDirCSVFile
+  - &LabelForPosDirCSVFile   SideshiftLargeStepPosDir
+
+  # - &GetMaxVelocityPosDir
+  #   Name: GetMaxVelocity
+  #   Args: 'MaxTargetV_mmpsec: 74, DelayStart_ms: 200'
+  #   Label: *LabelForPosDirCSVFile
+  
+  - &GetMaxVelocityInstforPosDir
+    Name: GetMaxVelocityInst
+    Args: 'timeWindow_ms: 0.0'
+    Label: *LabelForPosDirCSVFile
+  
+  - &GetStartOfMotionCommandPosDir
+    Name: GetStartOfMotionCommand
+    Args: 'VThresh: 5.0, SystemDelay_ms: 50'
+    Label: *LabelForPosDirCSVFile
+
+
+PostOperations:
+
+  - Type: MultiProcessLogFiles
+    LogName: *NegDirCSVFile
+    ProcessFunctions:
+      - <<: *GetMaxVelocityInstforNegDir
+      - <<: *GetStartOfMotionCommandNegDir
+
+  - Type: MultiProcessLogFiles
+    LogName: *PosDirCSVFile
+    ProcessFunctions:
+      - <<: *GetMaxVelocityInstforPosDir
+      - <<: *GetStartOfMotionCommandPosDir

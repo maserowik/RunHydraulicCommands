@@ -1,0 +1,13 @@
+
+
+Repeat: 1
+
+Operations:
+
+  - Type: SetDefAxis
+    Axis: lift
+
+  - Type: HydCommand
+    TargetPos: 600
+
+  

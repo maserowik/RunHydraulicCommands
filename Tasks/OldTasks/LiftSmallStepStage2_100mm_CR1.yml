@@ -1,0 +1,98 @@
+vars:
+  - &Axis                       lift
+
+  - &lowPos                     3000
+  - &step                       100
+
+  - &NegDirOvershootName        LiftSmallStepNegDirStage2_100mm_Overshoot
+  - &NegDirMaxV                 LiftSmallStepNegDirStage2_100mm_MaxV
+  - &NegDirMaxVinst             LiftSmallStepNegDirStage2_100mm_MaxVinst
+  - &NegDirMaxVinst_DelayTime   LiftSmallStepNegDirStage2_100mm_DelayTime
+  - &NegDirMaxVinst_Command     LiftSmallStepNegDirStage2_100mm_Command
+
+  - &NegDirCSVFile              LiftSmallStepNegDirStage2_100mm_[COUNTER]
+
+
+  - &PosDirOvershootName        LiftSmallStepPosDirStage2_100mm_Overshoot
+  - &PosDirMaxV                 LiftSmallStepPosDirStage2_100mm_MaxV
+  - &PosDirMaxVinst             LiftSmallStepPosDirStage2_100mm_MaxVinst
+  - &PosDirMaxVinst_DelayTime   LiftSmallStepPosDirStage2_100mm_DelayTime
+  - &PosDirMaxVinst_Command     LiftSmallStepPosDirStage2_100mm_Command
+
+  - &PosDirCSVFile              LiftSmallStepPosDirStage2_100mm_[COUNTER]
+
+Operations:
+
+  - Type: SetDefAxis
+    Axis: *Axis
+
+  - Type: HydCommand
+    TargetPos: *lowPos
+  
+
+  - Type: GetCurrentPos
+    OutName: StartPosition
+
+  - Type: GetLineNumber
+    OutName: StartLineNumber
+
+  - Type: MathOperation
+    Input1: StartPosition
+    Input2: *step
+    Operation: "+"
+    Output: PositiveTargetPos
+
+  - Type: HydCommand
+    TargetPos: PositiveTargetPos
+  
+
+  - Type: GetCurrentPos
+    OutName: FinalPosition
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumber
+
+  - Type: MathOperation
+    Input1: FinalPosition
+    Input2: PositiveTargetPos
+    Operation: "-"
+    Output: SmallPositiveStep
+
+  - Type: OutputResult
+    Input: SmallPositiveStep
+    Output: *PosDirOvershootName
+
+  - Type: OutputLogFile
+    StartLineNumber: StartLineNumber
+    EndLineNumber: FinalLineNumber
+    Name: *PosDirCSVFile
+
+  - Type: MathOperation
+    Input1: FinalPosition
+    Input2: *step
+    Operation: "-"
+    Output: LowTargetPos
+
+  - Type: HydCommand
+    TargetPos: LowTargetPos
+  
+  - Type: GetCurrentPos
+    OutName: FinalPositionL
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumberL
+
+  - Type: MathOperation
+    Input1: LowTargetPos
+    Input2: FinalPositionL
+    Operation: "-"
+    Output: OvershootInNegDirection
+
+  - Type: OutputResult
+    Input: OvershootInNegDirection
+    Output: *NegDirOvershootName 
+
+  - Type: OutputLogFile
+    StartLineNumber: FinalLineNumber
+    EndLineNumber: FinalLineNumberL
+    Name: *NegDirCSVFile

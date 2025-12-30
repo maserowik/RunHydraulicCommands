@@ -1,0 +1,98 @@
+vars:
+  - &Axis                       sideshift
+
+  - &lowPos                     0
+  - &step                       10
+
+  - &NegDirOvershootName        SideshiftSmallStepNegDir_Overshoot
+  # - &NegDirMaxV                 SideshiftSmallStepNegDir_MaxV
+  # - &NegDirMaxVinst             SideshiftSmallStepNegDir_MaxVinst
+  # - &NegDirMaxVinst_DelayTime   SideshiftSmallStepNegDir_DelayTime
+  # - &NegDirMaxVinst_Command     SideshiftSmallStepNegDir_Command
+
+  - &NegDirCSVFile              SideshiftSmallStepNegDir_[COUNTER]
+
+
+  - &PosDirOvershootName        SideshiftSmallStepPosDir_Overshoot
+  # - &PosDirMaxV                 SideshiftSmallStepPosDir_MaxV
+  # - &PosDirMaxVinst             SideshiftSmallStepPosDir_MaxVinst
+  # - &PosDirMaxVinst_DelayTime   SideshiftSmallStepPosDir_DelayTime
+  # - &PosDirMaxVinst_Command     SideshiftSmallStepPosDir_Command
+
+  - &PosDirCSVFile              SideshiftSmallStepPosDir_[COUNTER]
+
+Operations:
+
+  - Type: SetDefAxis
+    Axis: *Axis
+
+  - Type: HydCommand
+    TargetPos: *lowPos
+  
+
+  - Type: GetCurrentPos
+    OutName: StartPosition
+
+  - Type: GetLineNumber
+    OutName: StartLineNumber
+
+  - Type: MathOperation
+    Input1: StartPosition
+    Input2: *step
+    Operation: "+"
+    Output: PositiveTargetPos
+
+  - Type: HydCommand
+    TargetPos: PositiveTargetPos
+  
+
+  - Type: GetCurrentPos
+    OutName: FinalPosition
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumber
+
+  - Type: MathOperation
+    Input1: FinalPosition
+    Input2: PositiveTargetPos
+    Operation: "-"
+    Output: SmallPositiveStep
+
+  - Type: OutputResult
+    Input: SmallPositiveStep
+    Output: *PosDirOvershootName
+
+  - Type: OutputLogFile
+    StartLineNumber: StartLineNumber
+    EndLineNumber: FinalLineNumber
+    Name: *PosDirCSVFile
+
+  - Type: MathOperation
+    Input1: FinalPosition
+    Input2: *step
+    Operation: "-"
+    Output: LowTargetPos
+
+  - Type: HydCommand
+    TargetPos: LowTargetPos
+  
+  - Type: GetCurrentPos
+    OutName: FinalPositionL
+
+  - Type: GetLineNumber
+    OutName: FinalLineNumberL
+
+  - Type: MathOperation
+    Input1: LowTargetPos
+    Input2: FinalPositionL
+    Operation: "-"
+    Output: OvershootInNegDirection
+
+  - Type: OutputResult
+    Input: OvershootInNegDirection
+    Output: *NegDirOvershootName 
+
+  - Type: OutputLogFile
+    StartLineNumber: FinalLineNumber
+    EndLineNumber: FinalLineNumberL
+    Name: *NegDirCSVFile

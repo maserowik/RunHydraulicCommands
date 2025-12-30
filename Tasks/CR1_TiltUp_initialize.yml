@@ -1,0 +1,13 @@
+
+
+Repeat: 1
+
+Operations:
+
+  - Type: SetDefAxis
+    Axis: tilt
+
+  - Type: HydCommand
+    TargetPos: 0.065
+
+  

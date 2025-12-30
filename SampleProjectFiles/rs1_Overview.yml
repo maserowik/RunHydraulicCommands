@@ -1,0 +1,36 @@
+IPAddress: "###.###.###.##"
+PassWordRequired: False
+IsHardWired: False
+StepPause_sec: 1
+
+
+Tasks:
+
+- Name: initialize.yml
+
+- Name: RS1_LiftLargeStep.yml
+  Repeat: 2
+
+- Name: RS1_LiftSmallStep.yml
+  Repeat: 2
+
+- Name: RS1_TiltLargeStep.yml
+  Repeat: 2
+
+- Name: RS1_ReachLargeStep.yml
+  Repeat: 2
+
+- Name: RS1_SideshiftLargeStep.yml
+  Repeat: 2 
+
+- Name: RS1_SideshiftSmallStep.yml
+  Repeat: 2   
+
+# Post process functions
+
+- Name: RS1_LiftLargeStepProcess.yml
+- Name: RS1_LiftSmallStepProcess.yml
+- Name: RS1_TiltLargeStepProcess.yml
+- Name: RS1_ReachLargeStepProcess.yml
+- Name: RS1_SideshiftLargeStepProcess.yml
+- Name: RS1_SideshiftSmallStepProcess.yml

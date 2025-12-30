@@ -1,0 +1,192 @@
+Warning: Permanently added '10.0.0.2' (ECDSA) to the list of known hosts.
+seegrid@10.0.0.2's password: fuzzyrobotcroaksdownhill
+
+Subscribing to tilt feedback...
+SeegridLog <seegrid.logger.SeegridLog.SeegridLog object at 0x7f85485c1a90> initializing at level debug, localOnly = True, prefix = True.
+[1767120519 962331 29225 Seegrid ERROR] Subscribe attempt failed: 
+[1767120519 962392 29225 Seegrid ERROR] Reconnect appears to already be underway. (None, None, None)
+[1767120519 962331 29225 Seegrid ERROR] Subscribe attempt failed: 
+[1767120519 962392 29225 Seegrid ERROR] Reconnect appears to already be underway. (None, None, None)
+[1767120519 967232 29225 Seegrid INFO ] Building protocol: <class 'seegrid.messaging.Amqp.AmqpProtocol'>
+[1767120519 971461 29225 Seegrid INFO ] Connection made; beginning authentication.
+[1767120519 974781 29225 Seegrid INFO ] connection ready
+[1767120519 974869 29225 Seegrid INFO ] Authentication complete.
+[1767120519 974899 29225 Seegrid DEBUG] Creating channel.
+[1767120519 976121 29225 Seegrid DEBUG] Channel added successfully.
+[1767120519 976205 29225 Seegrid DEBUG] channel opened
+[1767120519 980872 29225 Seegrid INFO ] Starting to consume from reply queue amq.gen-Gzu_6881xFroDFoqvdITig.
+[1767120519 981829 29225 Seegrid DEBUG] The channel is open, and the reply queue is established.
+[1767120519 981895 29225 Seegrid DEBUG] The current connection ID of established connection is 8a015e8f-6518-4b49-bab7-3c7e2cda922a
+[1767120519 982023 29225 Seegrid DEBUG] Running delayed ops: [<seegrid.messaging.Amqp.DelayedOp object at 0x7f8548556160>]
+[1767120519 982203 29225 Seegrid INFO ] Subscribing callback <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>> to seegrid/vsmExchange->servo_axis.feedback.tilt.
+[1767120519 982254 29225 Seegrid INFO ] Declaring queue servo.AxisFeedbackMsgQueue_9ede3c4d-198f-4d30-b036-98535b1de6ad_servo_axis.feedback.tilt_0000000000000000.
+[1767120519 986513 29225 Seegrid INFO ] Declaring exchange seegrid/vsmExchange.
+[1767120519 987342 29225 Seegrid INFO ] Binding servo.AxisFeedbackMsgQueue_9ede3c4d-198f-4d30-b036-98535b1de6ad_servo_axis.feedback.tilt_0000000000000000 queue to seegrid/vsmExchange exchange with routing key servo_axis.feedback.tilt.
+[1767120519 990190 29225 Seegrid DEBUG] Subscribed using tag servo.AxisFeedbackMsgQueue_9ede3c4d-198f-4d30-b036-98535b1de6ad_servo_axis.feedback.tilt_0000000000000000.
+[1767120519 990424 29225 Seegrid DEBUG] Delayed call of <bound method AmqpFactory._subscribe of <seegrid.messaging.Amqp.AmqpFactory object at 0x7f85485c19e8>> succeeded with value None - firing callback!
+Subscription successful!
+[1767120519 990623 29225 Seegrid DEBUG] Skipping the cached subscription for [()_<bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>_<class 'seegrid.messaging.msgs.ServoAxisMsgs_pb2.AxisFeedbackMsg'>_Exchange_False_False_None_None_None_None_application/x-protobuf_seegrid/vsmExchange_servo_axis.feedback.tilt_{}] as its connection ID 8a015e8f-6518-4b49-bab7-3c7e2cda922a matches with the current connection ID 8a015e8f-6518-4b49-bab7-3c7e2cda922a.
+[1767120519 990842 29225 Seegrid DEBUG] Connection status changed to True.
+[1767120519 991605 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00857
+[1767120520 010752 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00600
+[1767120520 031751 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00866
+[1767120520 050959 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00622
+[1767120520 070820 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00617
+[1767120520 090847 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00620
+[1767120520 111023 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00893
+[1767120520 131062 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00627
+[1767120520 152097 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00623
+[1767120520 172816 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00620
+[1767120520 192377 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00616
+[1767120520 212646 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00855
+[1767120520 232176 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00868
+[1767120520 252516 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00608
+[1767120520 272964 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 293249 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00851
+[1767120520 312563 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00862
+[1767120520 332669 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00607
+[1767120520 355310 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00628
+[1767120520 373107 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00617
+[1767120520 393033 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00614
+[1767120520 413069 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00618
+[1767120520 433027 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 454618 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 475622 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 495172 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 514929 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00628
+[1767120520 535473 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00624
+[1767120520 555245 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.01126
+[1767120520 576399 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00864
+[1767120520 595166 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00624
+[1767120520 616074 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.01086
+[1767120520 635611 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00585
+[1767120520 655809 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00592
+[1767120520 686945 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00626
+[1767120520 695860 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00618
+[1767120520 715284 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 734726 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120520 754813 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00850
+[1767120520 775719 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00623
+[1767120520 795103 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00620
+[1767120520 815100 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00616
+[1767120520 835584 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00626
+[1767120520 855680 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00623
+[1767120520 876069 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00620
+[1767120520 895756 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00893
+[1767120520 915366 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00625
+[1767120520 936805 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00623
+[1767120520 956028 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00880
+[1767120520 976073 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00602
+[1767120520 997297 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00627
+[1767120521 016249 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00867
+[1767120521 036383 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00608
+[1767120521 056631 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00840
+[1767120521 076318 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00618
+[1767120521 096322 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00607
+[1767120521 116731 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00608
+[1767120521 136820 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00629
+[1767120521 156676 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00860
+[1767120521 178434 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00622
+[1767120521 196883 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00885
+[1767120521 217320 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00841
+[1767120521 237208 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00607
+[1767120521 257393 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00597
+[1767120521 278003 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00851
+[1767120521 297251 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00626
+[1767120521 317974 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00625
+[1767120521 337702 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00873
+[1767120521 358623 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00605
+[1767120521 379784 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00627
+[1767120521 397638 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00619
+[1767120521 417689 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00866
+[1767120521 438021 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+tilt: -0.00605
+[1767120521 458284 29225 Seegrid DEBUG] CALLBACK: <bound method AxisPublisher._printData of <__main__.AxisPublisher object at 0x7f85485c1b70>>
+Unhandled error in Deferred:
+
+Traceback (most recent call last):
+Failure: twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.
+
+tilt: -0.00627
+[1767120521 474197 29225 Seegrid WARN ] Error reported: b'AMQP_RECEIVE_FAILED's Failed to receive a servo_axis.feedback.tilt message:
+[Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+[1767120521 474197 29225 Seegrid WARN ] Error reported: b'AMQP_RECEIVE_FAILED's Failed to receive a servo_axis.feedback.tilt message:
+[Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+[1767120521 474977 29225 Seegrid WARN ] AMQP connection was lost.
+[1767120521 474977 29225 Seegrid WARN ] AMQP connection was lost.
+[1767120521 475069 29225 Seegrid DEBUG] Connection status changed to False.
+END
