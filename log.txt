@@ -1,0 +1,26 @@
+INFO | 2025-12-30 16:37:37,156 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-30 16:37:37,168 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=683 for 10.0.0.2
+ERROR | 2025-12-30 16:37:47,375 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-30 16:37:47,376 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-30 16:37:47,477 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251230_213737.log)
+INFO | 2025-12-30 16:37:47,504 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-30 16:37:47,512 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=688 for 10.0.0.2
+ERROR | 2025-12-30 16:37:57,726 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-30 16:37:57,728 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-30 16:37:57,829 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251230_213747.log)
+INFO | 2025-12-30 16:37:57,830 | remote_ssh_2.py | line: 117 | GetVehicleName | VEH NAME:   SOFT: 
+INFO | 2025-12-30 16:51:09,211 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-30 16:51:09,222 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=894 for 10.0.0.2
+ERROR | 2025-12-30 16:51:19,435 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-30 16:51:19,436 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-30 16:51:19,538 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251230_215109.log)
+INFO | 2025-12-30 16:51:19,577 | remote_ssh_2.py | line: 224 | sendSSHCommand | DEBUG: Attempt #1 connecting to 10.0.0.2 (directWire=True, withJump=False, bypassHostKey=True)
+INFO | 2025-12-30 16:51:19,590 | remote_ssh_2.py | line: 237 | ExpectSpawn | DEBUG: Spawned PID=902 for 10.0.0.2
+ERROR | 2025-12-30 16:51:29,802 | remote_ssh_2.py | line: 277 | ExpectSpawn | DEBUG: TIMEOUT while waiting for password/END.
+ERROR | 2025-12-30 16:51:29,803 | remote_ssh_2.py | line: 278 | ExpectSpawn | DEBUG: Output before TIMEOUT:
+
+INFO | 2025-12-30 16:51:29,905 | remote_ssh_2.py | line: 303 | sendSSHCommand | DEBUG: SSH attempt #1 successful (log: ServoLogs/ssh_10_0_0_2_20251230_215119.log)
+INFO | 2025-12-30 16:51:29,905 | remote_ssh_2.py | line: 117 | GetVehicleName | VEH NAME:   SOFT: 
