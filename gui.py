@@ -194,6 +194,13 @@ class HydraulicTestGUI:
         """Pull vehicle serial number from truck"""
         self.log_message("Retrieving vehicle serial number...")
         
+        # Run in background thread to avoid freezing GUI
+        serial_thread = threading.Thread(target=self._get_serial_number_thread)
+        serial_thread.daemon = True
+        serial_thread.start()
+    
+    def _get_serial_number_thread(self):
+        """Background thread to retrieve serial number"""
         # Use the remote SSH to get hostname
         try:
             # Import after ensuring we're in right directory
@@ -222,16 +229,17 @@ class HydraulicTestGUI:
             match = re.search(r'VEH NAME:\s*(\S+)', vehicle_info)
             if match:
                 serial = match.group(1).strip()
-                self.vehicle_serial.set(serial)
-                self.log_message(f"Serial number retrieved: {serial}")
+                # Update GUI from main thread
+                self.root.after(0, lambda: self.vehicle_serial.set(serial))
+                self.root.after(0, lambda: self.log_message(f"Serial number retrieved: {serial}"))
             else:
-                self.vehicle_serial.set("Parse Error")
-                self.log_message(f"Could not parse serial from: {vehicle_info}")
+                self.root.after(0, lambda: self.vehicle_serial.set("Parse Error"))
+                self.root.after(0, lambda: self.log_message(f"Could not parse serial from: {vehicle_info}"))
                 
         except Exception as e:
-            self.vehicle_serial.set("Error")
-            self.log_message(f"Error retrieving serial: {str(e)}")
-            messagebox.showerror("Error", f"Failed to get serial number:\n{str(e)}")
+            self.root.after(0, lambda: self.vehicle_serial.set("Error"))
+            self.root.after(0, lambda: self.log_message(f"Error retrieving serial: {str(e)}"))
+            self.root.after(0, lambda: messagebox.showerror("Error", f"Failed to get serial number:\n{str(e)}"))
     
     def start_test(self):
         """Start the hydraulic test"""
