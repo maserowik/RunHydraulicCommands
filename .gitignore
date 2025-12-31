@@ -23,6 +23,7 @@ Thumbs.db
 # Logs
 *.log
 ServoLogs
+*.txt
 
 # Large media files (optional)
 *.MOV

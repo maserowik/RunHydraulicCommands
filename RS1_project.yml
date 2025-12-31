@@ -18,6 +18,7 @@ SSHRetryFallback: true
 
 Tasks:
   - Name: initialize.yml
+    Repeat: 1
 
   - Name: RS1_LiftLargeStep.yml
     Repeat: 1

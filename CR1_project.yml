@@ -1,0 +1,60 @@
+# -------------------------
+# Project Configuration File
+# -------------------------
+
+IPAddress: "10.0.0.2"
+PassWordRequired: true
+IsHardWired: true
+StepPause_sec: 1
+
+# NEW — forces every run to start fresh for all tasks  
+IgnorePreviousRuns: true
+
+# Optional SSH debugging controls (use if desired)
+SSHDebug: false
+SSHDebugConsole: false
+SSHLogDir: "ServoLogs"
+SSHRetryFallback: true
+
+Tasks:
+
+- Name: initialize.yml
+  Repeat: 1
+
+- Name: CR1_TiltUp_initialize.yml
+  Repeat: 1
+
+- Name: CR1_LiftLargeStepStage1.yml
+  Repeat: 1
+
+- Name: CR1_LiftLargeStepStage2.yml
+  Repeat: 1
+
+- Name: CR1_LiftLargeStepBoth.yml
+  Repeat: 1
+
+- Name: CR1_LiftSmallStepStage1.yml
+  Repeat: 1
+
+- Name: CR1_LiftSmallStepStage2.yml
+  Repeat: 1
+
+- Name: CR1_LiftDown_initialize.yml
+  Repeat: 1
+
+- Name: CR1_ReachLargeStep.yml
+  Repeat: 1
+
+- Name: CR1_SideshiftSmallStep.yml
+  Repeat: 1
+
+- Name: CR1_SideshiftLargeStep.yml
+  Repeat: 1
+
+- Name: CR1_TiltLargeStep.yml
+  Repeat: 1
+
+# Post process functions
+# - Name: CR1_LiftLargeStepStage1Process.yml
+# - Name: CR1_LiftLargeStepStage2Process.yml
+# - Name: CR1_LiftLargeStepBothProcess.yml
