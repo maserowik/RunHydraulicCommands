@@ -55,6 +55,6 @@ Tasks:
   Repeat: 1
 
 # Post process functions
-# - Name: CR1_LiftLargeStepStage1Process.yml
-# - Name: CR1_LiftLargeStepStage2Process.yml
-# - Name: CR1_LiftLargeStepBothProcess.yml
+- Name: CR1_LiftLargeStepStage1Process.yml
+- Name: CR1_LiftLargeStepStage2Process.yml
+- Name: CR1_LiftLargeStepBothProcess.yml
